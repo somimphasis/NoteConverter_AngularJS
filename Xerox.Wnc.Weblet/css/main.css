@@ -1,0 +1,486 @@
+﻿body {
+    background-color: #333333;
+    font-family: 'Liberation Sans', 'Xerox Sans', 'Arial', sans-serif;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 480px;
+    margin: 0px;
+    padding: 1px;
+    overflow: hidden;
+}
+
+.progressBox {
+    background-color: #f2eeee;
+    width: 798px;
+    height: 478px;
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+    vertical-align: central;
+    align-items: center;
+}
+
+    .progressBox .spin {
+        background-image: url(../images/spin.gif);
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding-top: 80px;
+        height: 250px;
+        background-position: center;
+    }
+
+.text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Liberation Sans', 'Xerox Sans', 'Arial', sans-serif;
+}
+
+.progressBox .text {
+    font-size: 24px;
+    text-align: -webkit-center;
+    color: #333333;
+}
+
+.text.normal {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.contentFull {
+    /*background-image: url(../images/main.png); bug 794136*/
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px !important;
+    left: 0px !important;
+    z-index: 29;
+    width: 800px;
+    height: 480px;
+}
+
+.titlebar {
+    width: 795px;
+    height: 80px;
+    align-content: center;
+    color: #fff;
+    text-align: left;
+    vertical-align: middle;
+}
+
+    .titlebar.confirmdialog {
+        background-color: rgba(0, 0, 0, 0.647058823529412);
+        width: 510px;
+        height: 48px;
+    }
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    position: absolute;
+    top: 22px;
+    left: 85px;
+    text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.647058823529412);
+    font-family: 'Liberation Sans', 'Xerox Sans', 'Arial', sans-serif;
+}
+
+.confirmdialog .title {
+    font-size: 22px;
+    display: block;
+    -webkit-margin-before: .5em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    top: 0px;
+    left: 45px;
+}
+
+.icon {
+    z-index: 150;
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    .icon.disabled {
+        border-color: #9A9FA9;
+        opacity: .5;
+    }
+
+.titlebar .icon {
+    width: 80px;
+    height: 75px;
+    background-color: #ffffff;
+    align-content: center;
+}
+
+.confirmdialog .icon {
+    width: 40px;
+    height: 48px;
+    background-color: #ffffff;
+    align-content: center;
+}
+
+.buttonBar {
+    height: 60px;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    /*border: 1px solid rgba(0, 0, 0, 0.647058823529412);*/
+    border-radius: 8px;
+    /*border: 1px solid #6b6b6b;*/
+    /*background: transparent;*/
+    padding: 5px 18px 5px 10px;
+    margin: 12px 5px 10px 0px;
+    /*box-shadow: 2px 2px 4px rgba(0,0,0,0.20);*/
+    /*-webkit-box-shadow: inset 0 1px 0 #f2eeee, inset 0 -1px 0 #f2eeee, inset -1px 0 #f2eeee, inset 1px 0 #f2eeee, 0 1px 0 rgba(0, 0, 0, 0.1), 1px 0 1px rgba(0, 0, 0, 0.1), -1px 0 1px rgba(0, 0, 0, 0.1);*/
+    color: #000;
+    text-shadow: 0 1px 0px #fff;
+    border: 1px solid #6b6b6b;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.45) 1%, rgba(240, 240, 240, 0.45) 45%, rgba(220, 220, 220, 0.25) 46%, rgba(252, 252, 252, 0.25) 99%);
+    background: -webkit-gradient(linear, center top, center bottom, color-stop(0.01, rgba(255, 255, 255, 0.45)), color-stop(0.45, rgba(240, 240, 240, 0.45)), color-stop(0.46, rgba(220, 220, 220, 0.25)), color-stop(0.99, rgba(252, 252, 252, 0.25)));
+    -webkit-box-shadow: inset 0 1px 0 #ffffff, inset 0 -1px 0 #ffffff, inset -1px 0 #ffffff, inset 1px 0 #ffffff, 0 1px 0 #ffffff, 1px 0 1px rgba(0, 0, 0, 0.1), -1px 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.titlebar > .button {
+    float: right;
+    background: transparent;
+    border: 1px solid #000;
+    -webkit-box-shadow: inset 0 1px 0 #f2eeee, inset 0 -1px 0 #f2eeee, inset -1px 0 #f2eeee, inset 1px 0 #f2eeee, 0 1px 0 rgba(0, 0, 0, 0.1), 1px 0 1px rgba(0, 0, 0, 0.1), -1px 0 1px rgba(0, 0, 0, 0.1);
+}
+
+    .titlebar > .button.green {
+        background-color: #9df66d;
+    }
+
+        .titlebar > .button.green .buttonLabel {
+            color: #000;
+            text-shadow: none;
+            padding-left: 5px;
+        }
+
+.confirmdialog > .button {
+    padding: 3px 15px 3px 5px;
+    margin: 3px;
+    float: right;
+    height: 35px;
+}
+
+.button > div {
+    float: left;
+}
+
+.buttonIcon {
+    z-index: 121;
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.confirmdialog .buttonIcon {
+    height: 35px;
+}
+
+
+.buttonLabel {
+    z-index: 160;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.titlebar > .button .buttonLabel {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
+    text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.647058823529412);
+}
+
+.confirmdialog > .button .buttonLabel {
+    font-size: 16px;
+    padding: 10px 0px 3px 0px;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    color: gray;
+}
+
+.loginEditor {
+    color: #333333;
+    padding: 10px 0px 15px 15px;
+}
+
+    .loginEditor .text {
+        color: #F9F9F9;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .loginEditor > input {
+        font-size: 18px;
+        padding: 10px;
+        width: 750px;
+        margin-left: 10px;
+        font-weight: normal;
+        -webkit-box-sizing: border-box;
+        height: 48px;
+        border: 1px solid #333333;
+        border-radius: 8px;
+    }
+
+.textBoxDown {
+    border: 2px solid #333333;
+    color: #F9F9F9;
+    background-color: #333333;
+}
+
+.textBoxSelected {
+    border: 2px solid #333333;
+    color: #333333;
+    background-color: #F9F9F9;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30) inset;
+}
+
+    .textBoxSelected.placeholderText {
+        border: 2px solid #333333;
+        color: #DCDDDE;
+        background-color: #F9F9F9;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30) inset;
+    }
+
+/* progress */
+.progressContainer {
+    height: 140px;
+    width: 140px;
+    background-color: transparent;
+}
+
+.progressIndicator {
+    z-index: 107;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/** buttons **/
+
+.buttonSquare {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    z-index: 108;
+    border: 1px solid rgba(0, 0, 0, 0.647058823529412);
+    border-radius: 8px;
+    background: transparent;
+    padding: 14px 18px 18px 14px;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+}
+
+.buttonSquareIcon {
+    z-index: 121;
+    width: 96px;
+    height: 96px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#featuresBoxDialog .buttonSquareIcon {
+    margin: 10px 10px 10px 55px;
+}
+
+.buttonSquare .text {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.buttonNav {
+    z-index: 108;
+    border: 1px solid rgba(0, 0, 0, 0.647058823529412);
+    border-radius: 8px;
+    background: transparent;
+    padding: 8px 8px 8px 8px;
+    width: 32px;
+    height: 32px;
+}
+
+    .buttonNav.disabled {
+        border-color: #9A9FA9;
+        opacity: .5;
+    }
+
+.row {
+    display: table-row;
+}
+
+.itemBox {
+    border: 1px solid #838995;
+    border-radius: 8px;
+    height: 32px;
+    padding: 8px;
+    display: inline-block;
+}
+
+    .itemBox .text.normal {
+        font-size: 14px;
+        padding-top: 8px;
+    }
+
+    .itemBox.clear {
+        width: 10px;
+        padding: 0px;
+        border: none;
+    }
+
+    .itemBox.large {
+        width: 230px;
+    }
+
+    .itemBox.top {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-width: 0px;
+    }
+
+    .itemBox.bottom {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+.keypad {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: auto;
+}
+
+    .keypad .itemBox {
+        background-color: #fff;
+        align-content: center;
+        vertical-align: middle;
+    }
+
+.itemBox > input {
+    padding: 8px 4px 8px 4px;
+    border: none;
+    font-size: 16px;
+}
+
+#optionContent {
+    padding: 10px;
+    width: 780px;
+    height: 380px;
+}
+
+#selectedFile {
+    width: 480px;
+    margin-left: 5px;
+}
+
+#btChangeFile {
+    width: 240px;
+}
+
+.kbuttonsGroup {
+    padding: 3px;
+}
+
+    .kbuttonsGroup .itemBox {
+        height: 32px;
+        width: 50px;
+        font-weight: bold;
+        background-color: rgba(240, 240, 240, 0.45);
+    }
+
+        .kbuttonsGroup .itemBox.keyzero {
+            width: 125px;
+        }
+
+.itemBox .text.key {
+    padding: 5px 4px 3px 18px;
+}
+
+.itemBox.keyzero .text.key {
+    padding: 5px 4px 3px 58px;
+}
+
+.optionSettings {
+    float: right;
+    width: 510px;
+    margin-top: 30px;
+}
+
+.option {
+    padding-right: 10px;
+    display: table-cell;
+}
+
+    .option.right {
+        right: 40px;
+    }
+
+    .option .itemBox {
+        width: 230px;
+    }
+
+#btSwitch {
+    position: absolute;
+    bottom: 40px;
+    width: 490px;
+    padding: 8px 8px 8px 8px;
+    width: 32px;
+    height: 32px;
+}
+
+.errorMessage {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    min-height: 32px;
+}
+
+#infoDiv {
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    width: 90%;
+    height: 200px;
+}
+
+.instructionsBox {
+    z-index: 100;
+    width: 748px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    border: 2px inset #484860;
+    background-color: lightgray;
+    height: 150px;
+}
+
+.instructions {
+    font-size: 16px;
+    padding: 15px 10px 10px 5px;
+}

@@ -1,0 +1,76 @@
+﻿<div class="modal-body" style="height: 500px;">
+    <div class="header" action-bar>
+        <div class="header-left">
+            <button class="btn btn-medium btn-glyph xrx-close" ng-click="$ctrl.dismiss()"></button>
+        </div>
+        <div class="header-right">
+            <button class="btn btn-medium btn-glyph-label xrx-OK" xas-string="SDE_OK" ng-click="$ctrl.ok()"></button>
+        </div>
+        <div class="header-middle">
+            <div class="header-title-container">
+                <div class="header-title" xas-string="SDE_FILE_FORMAT"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="file-format-modal-body">
+        <div class="grid-container">
+            <div class="grid-row">
+                <!-- sidebar -->
+                <div class="column-10-12 column-5-c-13">
+                    <ul class="action-list">
+                        <li ng-repeat="option in $ctrl.feature.options track by option.value">
+                            <button class="btn btn-medium btn-image"
+                                    ng-click="$ctrl.selectOption(option)"
+                                    ng-class="::{'selected': option === $ctrl.feature.selectedOption,
+                                                  'disabled': option.disabled}">
+                                <div class="image-container">
+                                    <img class="image" ng-src="Content/Images/{{option.icon}}">
+                                </div>
+
+                                <div class="text-container">
+                                    <span class="left-text" xas-string="{{option.title}}"></span>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- options -->
+                <div class="column-10-50 column-offset-10-1 column-5-c-49 column-offset-5-g-1">
+                    <div style="margin-bottom:10px"
+                         ng-if="$ctrl.feature.selectedOption.value == subFeature.enabledIf"
+                         ng-repeat="subFeature in $ctrl.feature.subFeatures track by subFeature.name">
+
+                        <ul class="action-list">
+                            <li>
+                                <button class="btn btn-medium" style="text-align:left">
+                                    <span style="vertical-align:middle;" xas-string="{{subFeature.title}}"></span>
+
+                                    <!-- We'll make the assumption that for toggle type features false is the first option and true the second -->
+                                    <toggle-switch ng-if="subFeature.type=='toggle'" ng-model="subFeature.selectedOption" style="float:right;"
+                                                   false-value="subFeature.options[0]"
+                                                   true-value="subFeature.options[1]">
+                                    </toggle-switch>
+                                </button>
+                            </li>
+                            <li ng-if="subFeature.selectedOption.value == subSubFeature.enabledIf"
+                                ng-repeat="subSubFeature in subFeature.subFeatures track by subSubFeature.name"
+                                ng-click="$ctrl.openFeaturePopover(subSubFeature)">
+                                <button class="btn btn-medium" style="text-align:left;">
+                                    <span xas-string="{{subSubFeature.title}}"></span>
+                                    <span class="pull-right" xas-string="{{subSubFeature.selectedOption.title}}"></span>
+                                </button>
+                            </li>
+                        </ul>
+
+                        <!-- Description of the subfeature chosen option -->
+                        <div ng-if="subFeature.selectedOption.desc" style="font-size:18px;margin-left:10px;margin-top:5px">
+                            <span xas-string="{{subFeature.selectedOption.desc}}"> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

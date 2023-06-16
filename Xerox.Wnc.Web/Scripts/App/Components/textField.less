@@ -1,0 +1,65 @@
+﻿// Copyright © 2019 Xerox Corporation. All Rights Reserved.
+@import (optional) '../../../wwwroot/Content/Styles/buttons.less';
+
+text-field {
+
+
+    &.error {
+
+        div {
+            background-color: rgba(239, 62, 65, 0.35);
+        }
+
+
+        input.textField:focus {
+            border-color: #ef3e41 !important;
+            border-style: inherit;
+            box-shadow: 0 0 0 1px #fff, inset 1px 1px 2px rgba(239, 62, 65, 0.50);
+            background-color: #fbe8ea !important;
+        }
+    }
+
+    &.ad-themed {
+
+        input.textField {
+            color: @violet-dark;
+        }
+
+        .textField {
+            color: white;
+            box-shadow: #d829b7 0px 1px 0px 0px inset, #d829b7 1px 0px 0px 0px inset;
+            border-color: #380a2e;
+            text-shadow: #1d1d1d 0px -1px 0px;
+        }
+    }
+
+    .textField {
+        .btn;
+        line-height: 35px;
+        margin: 0;
+        /*box-shadow: rgba(200, 200, 200, 0.35) 0px 2px inset, rgba(200, 200, 200, 0.35) 2px 0px inset, rgba(48, 48, 48, 0.35) 0px -1.5px inset, rgba(48, 48, 48, 0.35) -0.75px 0px inset;
+        border-color: #114D9C;*/
+        &:focus {
+            text-shadow: none !important;
+            outline: none;
+            background-color: #fff !important;
+        }
+
+        @media (min-width: 1024px) {
+            margin: 0;
+            padding: 12.5px;
+        }
+    }
+
+    input.textField {
+        box-sizing: border-box;
+        width: 100%;
+        font-weight: bold;
+
+        &::-webkit-input-placeholder {
+            font-weight: 300;
+            opacity: .3 !important;
+            color: #999;
+        }
+    }
+}

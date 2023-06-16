@@ -1,0 +1,13 @@
+﻿<div class="alert-popup alert-background alert-opacity" role="alertdialog" aria-labelledby="myAlertPopupDialogTitle" tabindex="-1" style="display: block;">
+    <div class="alert-container">
+        <div class="alert-content">
+            <h3 ng-if="$ctrl.resolve.title" class="alert-title" xas-string="{{$ctrl.resolve.title}}">{{$ctrl.resolve.title}}</h3>
+            <p ng-if="$ctrl.resolve.body">
+                <span class="alert-additional-info" xas-string="{{$ctrl.resolve.body}}">{{$ctrl.resolve.body}}</span>
+            </p>
+            <div class="alert-button-container">
+                <button type="button" class="btn btn-medium glyph-button btn-secondary-alert xrx-close" xas-string="{{$ctrl.resolve.buttonText}}" ng-click="$ctrl.close()">{{$ctrl.resolve.buttonText}}</button>
+            </div>
+        </div>
+    </div>
+</div>

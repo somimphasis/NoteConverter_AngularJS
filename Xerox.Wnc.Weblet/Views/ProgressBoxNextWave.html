@@ -1,0 +1,65 @@
+﻿
+<style>
+    body {
+        width: auto;
+        height: auto;
+    }
+
+    .gridContainer {
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .centerPopover {
+        position: fixed !important;
+        top: 50% !important;
+        left: 50% !important;
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .text {
+        color: white;
+        text-align: center;
+    }
+
+    .spinner {
+        background-image: url(images/spin.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    @media(min-width:800px) {
+
+        .fixed-content {
+            height: 480px;
+        }
+
+        .large {
+            font-size: 32px;
+        }
+    }
+
+    @media(min-width:1024px) {
+
+        .fixed-content {
+            height: 600px;
+        }
+
+        .large {
+            font-size: 28px;
+        }
+    }
+</style>
+
+<div class="fixed-content">
+    <div class="centerPopover gridContainer">
+        <div id="progressDialog" class="spinner" style="height:150px;"></div>
+        <div id="progressText" class="text large localize">SDE_CONNECTING</div>
+    </div>
+</div>

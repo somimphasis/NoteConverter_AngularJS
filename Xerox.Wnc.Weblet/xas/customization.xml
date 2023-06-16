@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<appCustomization xmlns="http://www.xerox.com/appstudio/ckapp/customization" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- Set EIP version restriction -->
+  <minEIP>
+    <majorVersion>3</majorVersion>
+    <minorVersion>5</minorVersion>
+    <revision>0</revision>
+  </minEIP>
+
+  <!-- Device Capabilities are optional. Your options are Copy, Print, Scan, Fax. You can set 1 or more. True = app requires that device capability. False = App does not require that capability -->
+  <deviceCapabilities>
+    <copy>false</copy>
+    <print>false</print>
+    <scan>false</scan>
+    <fax>false</fax>
+  </deviceCapabilities>
+
+  <!-- Restrict your app so that it is only able to be installed from certain countries (Optional) You can enter any 3 letter country code as a coma separated list. If a country is defined, the app will be allowed to be installed for that country. -->
+  <!-- <countryRestriction>USA</countryRestriction> -->
+
+  <!-- Set category for the App. If not set. Category will default to General. Possible categories include: Business, Channel Partner, Cloud Storage, Communication, Creative Projects, Education, Games,
+Insurance, Legal, Medical, Mobile Solutions, Productivity, Utlities, General -->
+  <appCategory>Business</appCategory>
+
+
+  <!-- Provide privacy policy text files (Optional) -->
+  <privacyPolicies>
+    <privacyFile lang="en">Policies\policy-english.txt</privacyFile>
+    <privacyFile lang="ca">Policies\policy-catalan.txt</privacyFile>
+    <privacyFile lang="cs">Policies\policy-czech.txt</privacyFile>
+    <privacyFile lang="da">Policies\policy-danish.txt</privacyFile>
+    <privacyFile lang="nl">Policies\policy-dutch.txt</privacyFile>
+    <privacyFile lang="fi">Policies\policy-finnish.txt</privacyFile>
+    <privacyFile lang="fr">Policies\policy-french.txt</privacyFile>
+    <privacyFile lang="de">Policies\policy-german.txt</privacyFile>
+    <privacyFile lang="el">Policies\policy-greek.txt</privacyFile>
+    <privacyFile lang="hu">Policies\policy-hungarian.txt</privacyFile>
+    <privacyFile lang="it">Policies\policy-italian.txt</privacyFile>
+    <privacyFile lang="no">Policies\policy-norwegian.txt</privacyFile>
+    <privacyFile lang="pl">Policies\policy-polish.txt</privacyFile>
+    <privacyFile lang="pt-BR">Policies\policy-brazilian-portuguese.txt</privacyFile>
+    <privacyFile lang="ro">Policies\policy-romanian.txt</privacyFile>
+    <privacyFile lang="ru">Policies\policy-russian.txt</privacyFile>
+    <privacyFile lang="es">Policies\policy-spanish.txt</privacyFile>
+    <privacyFile lang="sv">Policies\policy-swedish.txt</privacyFile>
+    <privacyFile lang="tr">Policies\policy-turkish.txt</privacyFile>
+  </privacyPolicies>
+
+  <!-- Provide custom software disclosures. -->
+  <customSoftwareDisclosure>
+    <swdFile lang="en">SoftwareDisclosures\swd-english.txt</swdFile>
+    <!--<swdFile lang="ca">SoftwareDisclosures\swd-catalan.txt</swdFile>
+    <swdFile lang="cs">SoftwareDisclosures\swd-czech.txt</swdFile>
+    <swdFile lang="da">SoftwareDisclosures\swd-danish.txt</swdFile>
+    <swdFile lang="nl">SoftwareDisclosures\swd-dutch.txt</swdFile>
+    <swdFile lang="fi">SoftwareDisclosures\swd-finnish.txt</swdFile>
+    <swdFile lang="fr">SoftwareDisclosures\swd-french.txt</swdFile>
+    <swdFile lang="de">SoftwareDisclosures\swd-german.txt</swdFile>
+    <swdFile lang="el">SoftwareDisclosures\swd-greek.txt</swdFile>
+    <swdFile lang="hu">SoftwareDisclosures\swd-hungarian.txt</swdFile>
+    <swdFile lang="it">SoftwareDisclosures\swd-italian.txt</swdFile>
+    <swdFile lang="no">SoftwareDisclosures\swd-norwegian.txt</swdFile>
+    <swdFile lang="pl">SoftwareDisclosures\swd-polish.txt</swdFile>
+    <swdFile lang="pt-BR">SoftwareDisclosures\swd-brazilian-portuguese.txt</swdFile>
+    <swdFile lang="ro">SoftwareDisclosures\swd-romanian.txt</swdFile>
+    <swdFile lang="ru">SoftwareDisclosures\swd-russian.txt</swdFile>
+    <swdFile lang="es">SoftwareDisclosures\swd-spanish.txt</swdFile>
+    <swdFile lang="sv">SoftwareDisclosures\swd-swedish.txt</swdFile>
+    <swdFile lang="tr">SoftwareDisclosures\swd-turkish.txt</swdFile>-->
+  </customSoftwareDisclosure>
+
+  <!-- Standard EULA will be displayed if custom EULA files are not given below -->
+  <customEULA>
+    <eulaFile lang="en">EULAs\eula-english.txt</eulaFile>
+    <eulaFile lang="ca">EULAs\eula-catalan.txt</eulaFile>
+    <eulaFile lang="cs">EULAs\eula-czech.txt</eulaFile>
+    <eulaFile lang="da">EULAs\eula-danish.txt</eulaFile>
+    <eulaFile lang="nl">EULAs\eula-dutch.txt</eulaFile>
+    <eulaFile lang="fi">EULAs\eula-finnish.txt</eulaFile>
+    <eulaFile lang="fr">EULAs\eula-french.txt</eulaFile>
+
+    <eulaFile lang="de">EULAs\eula-german.txt</eulaFile>
+    <eulaFile lang="el">EULAs\eula-greek.txt</eulaFile>
+    <eulaFile lang="it">EULAs\eula-italian.txt</eulaFile>
+    <eulaFile lang="hu">EULAs\eula-hungarian.txt</eulaFile>
+    <eulaFile lang="no">EULAs\eula-norwegian.txt</eulaFile>
+    <eulaFile lang="pl">EULAs\eula-polish.txt</eulaFile>
+    <eulaFile lang="pt-BR">EULAs\eula-brazilian-portuguese.txt</eulaFile>
+    <eulaFile lang="ro">EULAs\eula-romanian.txt</eulaFile>
+    <eulaFile lang="ru">EULAs\eula-russian.txt</eulaFile>
+    <eulaFile lang="es">EULAs\eula-spanish.txt</eulaFile>
+    <eulaFile lang="sv">EULAs\eula-swedish.txt</eulaFile>
+    <eulaFile lang="tr">EULAs\eula-turkish.txt</eulaFile>
+  </customEULA>
+
+  <!-- screenshots support JPEG, PNG, GIF 800x480dpi-->
+  <screenshots>
+    <imageFile lang="ca">Images\catalan-1.jpg</imageFile>
+
+    <imageFile lang="ca">Images\catalan-2.jpg</imageFile>
+
+    <imageFile lang="ca">Images\catalan-3.jpg</imageFile>
+
+    <imageFile lang="cs">Images\czech-1.jpg</imageFile>
+
+    <imageFile lang="cs">Images\czech-2.jpg</imageFile>
+
+    <imageFile lang="cs">Images\czech-3.jpg</imageFile>
+
+    <imageFile lang="da">Images\danish-1.jpg</imageFile>
+
+    <imageFile lang="da">Images\danish-2.jpg</imageFile>
+
+    <imageFile lang="da">Images\danish-3.jpg</imageFile>
+
+    <imageFile lang="de">Images\german-1.jpg</imageFile>
+
+    <imageFile lang="de">Images\german-2.jpg</imageFile>
+
+    <imageFile lang="de">Images\german-3.jpg</imageFile>
+
+    <imageFile lang="el">Images\greek-1.jpg</imageFile>
+
+    <imageFile lang="el">Images\greek-2.jpg</imageFile>
+
+    <imageFile lang="el">Images\greek-3.jpg</imageFile>
+
+    <imageFile lang="en">Images\english-1.jpg</imageFile>
+
+    <imageFile lang="en">Images\english-2.jpg</imageFile>
+
+    <imageFile lang="en">Images\english-3.jpg</imageFile>
+
+    <imageFile lang="es">Images\spanish-1.jpg</imageFile>
+
+    <imageFile lang="es">Images\spanish-2.jpg</imageFile>
+
+    <imageFile lang="es">Images\spanish-3.jpg</imageFile>
+
+    <imageFile lang="fi">Images\finnish-1.jpg</imageFile>
+
+    <imageFile lang="fi">Images\finnish-2.jpg</imageFile>
+
+    <imageFile lang="fi">Images\finnish-3.jpg</imageFile>
+
+    <imageFile lang="fr">Images\french-1.jpg</imageFile>
+
+    <imageFile lang="fr">Images\french-2.jpg</imageFile>
+
+    <imageFile lang="fr">Images\french-3.jpg</imageFile>
+
+    <imageFile lang="hu">Images\hungarian-1.jpg</imageFile>
+
+    <imageFile lang="hu">Images\hungarian-2.jpg</imageFile>
+
+    <imageFile lang="hu">Images\hungarian-3.jpg</imageFile>
+
+    <imageFile lang="it">Images\italian-1.jpg</imageFile>
+
+    <imageFile lang="it">Images\italian-2.jpg</imageFile>
+
+    <imageFile lang="it">Images\italian-3.jpg</imageFile>
+
+    <imageFile lang="no">Images\norwegian-1.jpg</imageFile>
+
+    <imageFile lang="no">Images\norwegian-2.jpg</imageFile>
+
+    <imageFile lang="no">Images\norwegian-3.jpg</imageFile>
+
+    <imageFile lang="nl">Images\dutch-1.jpg</imageFile>
+
+    <imageFile lang="nl">Images\dutch-2.jpg</imageFile>
+
+    <imageFile lang="nl">Images\dutch-3.jpg</imageFile>
+
+    <imageFile lang="pl">Images\polish-1.jpg</imageFile>
+
+    <imageFile lang="pl">Images\polish-2.jpg</imageFile>
+
+    <imageFile lang="pl">Images\polish-3.jpg</imageFile>
+
+    <imageFile lang="pt-br">Images\brazilianportuguese-1.jpg</imageFile>
+
+    <imageFile lang="pt-br">Images\brazilianportuguese-2.jpg</imageFile>
+
+    <imageFile lang="pt-br">Images\brazilianportuguese-3.jpg</imageFile>
+
+    <imageFile lang="ro">Images\romanian-1.jpg</imageFile>
+
+    <imageFile lang="ro">Images\romanian-2.jpg</imageFile>
+
+    <imageFile lang="ro">Images\romanian-3.jpg</imageFile>
+
+    <imageFile lang="ru">Images\russian-1.jpg</imageFile>
+
+    <imageFile lang="ru">Images\russian-2.jpg</imageFile>
+
+    <imageFile lang="ru">Images\russian-3.jpg</imageFile>
+
+    <imageFile lang="sv">Images\swedish-1.jpg</imageFile>
+
+    <imageFile lang="sv">Images\swedish-2.jpg</imageFile>
+
+    <imageFile lang="sv">Images\swedish-3.jpg</imageFile>
+
+    <imageFile lang="tr">Images\turkish-1.jpg</imageFile>
+
+    <imageFile lang="tr">Images\turkish-2.jpg</imageFile>
+
+    <imageFile lang="tr">Images\turkish-3.jpg</imageFile>
+
+  </screenshots>
+
+  <!-- Gallery Description, Copyright, Supported Languages, What's New, Links -->
+  <!-- A new section will need to be created for each language that you want info displayed for. If you only have the EN (English) section, English content will be displayed for all browser/device languages -->
+  <!-- These are the languag
+    EN - English
+    PT-BR - Brazilian Portuguese
+    CA - Catalan
+    CS - Czech
+    DA - Danish
+    NL - Dutch
+    FI - Finnish
+    FR - French
+    DE - German
+    HU - Hungarian
+    IT - Italian
+    NO - Norwegian
+    PL - Polish
+    RO - Romanian
+    RU - Russian
+    ES - Spanish
+    SV - Swedish
+    TR - Turkish -->
+
+  <appStringSets>
+    <appStringSet lang="en">
+      <galleryDescription>
+        &lt;p&gt;What if there were an easier way to get your notes off the page and into the world?  With the Xerox® Note Converter app, utilizing the latest Google AI technology, it’s easier than ever.  With Xerox® Note Converter and your Xerox® Connect Key enabled device, quickly convert your notes into an MS Word document or text file sent to you digitally. Easily edit and share your notes with everyone in that important meeting you just left, saving you precious time.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Xerox Note Converter can:&lt;ul&gt;
+        &lt;li&gt; Easily convert your handwritten notes to an MS Word document (.docx)&lt;/li&gt;
+        &lt;li&gt; Send the documents to yourself or another email address.&lt;/li&gt;
+        &lt;li&gt; Easily edit then share without needing to re-type.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;It’s easy with one touch at the Xerox® Connect Key enabled device. Keep using that pen, it is mightier than the keyboard!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. All Rights Reserved.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="pt-BR">
+      <galleryDescription>
+        &lt;p&gt;E se houvesse uma maneira mais fácil de tirar suas anotações do papel e colocá-las no mundo?  Com o aplicativo Xerox® Note Converter, utilizando a mais recente tecnologia Google AI, é mais fácil do que nunca.  Com o Xerox® Note Converter e o seu dispositivo habilitado para Xerox® Connect Key, converta rapidamente suas anotações em um documento do MS Word ou em um arquivo de texto enviado digitalmente para você. Edite e compartilhe facilmente suas anotações com todos naquela reunião importante da qual você acabou de sair, economizando um tempo precioso.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;O aplicativo Xerox Note Converter pode:&lt;ul&gt;
+        &lt;li&gt; Converter facilmente suas anotações manuscritas em um documento do MS Word (.docx)&lt;/li&gt;
+        &lt;li&gt; Enviar os documentos para você mesmo ou para outro endereço de email.&lt;/li&gt;
+        &lt;li&gt; Editar facilmente e compartilhar sem precisar digitar novamente.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;É fácil com um toque no dispositivo habilitado para Xerox® Connect Key. Continue usando essa caneta, ela é mais poderosa que o teclado!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Todos os direitos reservados.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="ca">
+      <galleryDescription>
+        &lt;p&gt;Us imagineu que hi hagués una manera més fàcil de poder compartir les vostres notes amb el món?  Amb l'aplicació Xerox® Note Converter, que utilitza l'última tecnologia d'intel·ligència artificial, mai havia estat tan senzill.  Convertiu les notes en un document de MS Word o un fitxer de text que us hagin enviat electrònicament amb l'aplicació Xerox® Note Converter i un dispositiu amb Xerox® Connect Key. Editeu fàcilment les notes i compartiu-les amb tothom en sortir d'una reunió important, en un obrir i tancar d'ulls.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;L'aplicació Xerox Note Converter pot:&lt;ul&gt;
+        &lt;li&gt; Convertir fàcilment les notes manuscrites en un document de MS Word (.docx)&lt;/li&gt;
+        &lt;li&gt; Enviar documents a la vostra adreça electrònica o a altres adreces.&lt;/li&gt;
+        &lt;li&gt; Editar amb comoditat i posteriorment compartir-ho sense haver de reescriure.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;És tan fàcil com fer un toc a un dispositiu amb Xerox® Connect Key. Seguiu utilitzant el bolígraf, una eina més imponent que el teclat!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Tots els drets reservats.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="cs">
+      <galleryDescription>
+        &lt;p&gt;Víte, že by mohl existovat jednodušší způsob, jak dostat vaše poznámky ze stránky do světa?  S aplikací Xerox® Note Converter, která využívá nejnovější technologii umělé inteligence společnosti Google, je to jednodušší, než kdykoli v minulosti.  S aplikací Xerox® Note Converter a zařízením s podporou Xerox® Connect Key můžete rychle převádět poznámky do formátu dokumentu MS Word nebo textového souboru, který vám bude zaslán digitální cestou. Jednoduše upravujte a sdílejte svoje poznámky se všemi účastníky důležité schůzky, která právě skončila, a ušetřete tak cenný čas.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Aplikace Xerox Note Converter dokáže:&lt;ul&gt;
+        &lt;li&gt; jednoduše převádějte svoje rukou psané poznámky do dokumentu MS Word (.docx),&lt;/li&gt;
+        &lt;li&gt; posílejte dokumenty sobě i na další e-mailové adresy,&lt;/li&gt;
+        &lt;li&gt; jednoduše upravujte a poté sdílejte bez nutnosti přepisování.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Se zařízením s podporou technologie Xerox® Connect Key je to snadné a vše se provádí jedním dotykem. Používejte pero i nadále, je výkonnější než klávesnice!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Všechna práva vyhrazena.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="da">
+      <galleryDescription>
+        &lt;p&gt;Hvad hvis der var en lettere måde at få dine noter fra siden og ud i verden?  Med Xerox® Note Converter-appen der benytter den nyeste Google AI-teknologi er det lettere end nogensinde.  Med Xerox® Note Converter og din Xerox® Connect Key-aktiverede enhed konverterer du hurtigt dine noter til et MS Word-dokument eller en tekstfil, der sendes digitalt til dig. Det er let at redigere og dele dine noter med alle på det vigtige møde, du lige har forladt, hvilket sparer dig dyrebar tid.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Xerox Note Converter-appen kan:&lt;ul&gt;
+        &lt;li&gt; Nemt konvertere dine håndskrevne noter til et MS Word-dokument (.docx)&lt;/li&gt;
+        &lt;li&gt; Sende dokumenterne til dig selv eller en anden e-mailadresse.&lt;/li&gt;
+        &lt;li&gt; Nemt redigere og derefter dele uden at behøve at indtaste den igen.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Det er let med et enkelt tryk på den Xerox® Connect Key-aktiverede enhed. Fortsæt med at bruge den pen, den er mægtigere end tastaturet!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Alle rettigheder forbeholdt.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="nl">
+      <galleryDescription>
+        &lt;p&gt;Wat als er een makkelijkere manier zou zijn om uw aantekeningen vanaf papier de wereld in te sturen?  Met de Xerox® Note Converter-app, die gebruikmaakt van de nieuwste Google AI-technologie, is dat eenvoudiger dan ooit.  Met Xerox® Note Converter en uw voor Xerox® Connect Key geschikte apparaat, converteert u snel uw aantekeningen in een MS Word-document of tekstbestand dat digitaal naar u wordt gestuurd. Bewerk en deel uw aantekeningen eenvoudig met iedereen in die belangrijke vergadering die u zojuist hebt bijgewoond, en bespaar daarmee kostbare tijd.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;De Xerox Note Converter-app kan:&lt;ul&gt;
+        &lt;li&gt; Eenvoudig met de hand geschreven aantekeningen converteren naar een MS Word-document (.docx)&lt;/li&gt;
+        &lt;li&gt; De documenten naar uzelf of naar een ander e-mailadres sturen.&lt;/li&gt;
+        &lt;li&gt; Bewerk ze eenvoudig en deel ze dan zonder dat u over hoeft te typen.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Het werkt heel eenvoudig met één tik op het voor Xerox® Connect Key geschikte apparaat. Blijf de pen gebruiken, het is machtiger dan het toetsenbord!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Alle rechten voorbehouden.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="fi">
+      <galleryDescription>
+        &lt;p&gt;Mitä jos olisi helpompi tapa saada muistiinpanosi talteen paperilta ja laittaa ne eteenpäin?   Viimeisintä Google AI -teknologiaa käyttävän Xerox® Note Converter -sovelluksen avulla tämä on helpompaa kuin koskaan aikaisemmin.  Xerox® Note Converter -sovelluksella ja Xerox® Connect Key -teknologiaa tukevalla laitteella voit muuntaa muistiinpanosi nopeasti MS Word -dokumentiksi tai tekstitiedostoksi, joka lähetetään sinulle digitaalisesti. Muokkaa ja jaa muistiinpanosi helposti kaikkien niiden kanssa, jotka juuri olivat kanssasi tärkeässä kokouksessa. Tämä säästää arvokasta aikaasi.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Xerox Note Converter -sovellus voi:&lt;ul&gt;
+        &lt;li&gt; Muuntaa helposti käsinkirjoittamasi muistiinpanot MS Word -dokumentiksi (.docx)&lt;/li&gt;
+        &lt;li&gt; Lähettää dokumentit sinulle itsellesi tai johonkin toiseen sähköpostiosoitteeseen&lt;/li&gt;
+        &lt;li&gt; Helposti muokata ja sen jälkeen jakaa tarvitsematta kirjoittaa uudelleen.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Tämä on helppoa ja tapahtuu yhdellä kosketuksella Xerox® Connect Key -teknologiaa tukevalla laitteella. Jatka kynän käyttämistä, se on voimakkaampi kuin näppäimistö!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Kaikki oikeudet pidätetään.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="fr">
+      <galleryDescription>
+        &lt;p&gt;Et si un moyen plus simple d'extraire vos notes de la page et de leur donner vie existait ?  Avec l'application Xerox® Note Converter qui fait appel à la dernière technologie de l'IA de Google, c'est plus simple que jamais.  Avec Xerox® Note Converter et votre appareil compatible avec Xerox® Connect Key, convertissez rapidement vos notes en un document MS Word, de même qu'un fichier texte qui vous est envoyé numériquement. En toute facilité, apportez les modifications nécessaires à vos notes et partagez-les avec chacun des participants à cette importante réunion que vous venez de quitter : vous gagnez ainsi un temps précieux.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Voici ce que l'application Xerox Note Converter peut faire :&lt;ul&gt;
+        &lt;li&gt; convertir facilement vos notes manuscrites en un document MS Word (.docx)&lt;/li&gt;
+        &lt;li&gt; envoyer les documents à votre propre adresse électronique ou à celle d'une autre personne.&lt;/li&gt;
+        &lt;li&gt; modifier, puis partager sans qu'il ne soit nécessaire de retaper.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Il suffit de toucher l'appareil compatible avec Xerox® Connect Key. Tenez-vous-en à votre stylo, il est plus redoutable que le clavier !&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Tous droits réservés.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="de">
+      <galleryDescription>
+        &lt;p&gt;Was wäre, wenn es einen einfacheren Weg gäbe, Ihre Notizen von einem Blatt Papier hinaus in die Welt zu tragen?  Mit der Xerox® Note Converter App, die die neueste Google KI-Technologie nutzt, ist dies einfacher denn je.  Mit dem Xerox® Note Converter und Ihrem Xerox® Connect Key-fähigen Gerät können Sie Ihre Notizen schnell in ein MS Word-Dokument oder eine Textdatei umwandeln, die Ihnen digital zugeschickt wird. Sie können Ihre Notizen leicht bearbeiten und mit jedem aus Ihrem Meeting teilen, ohne dabei viel Zeit aufwenden zu müssen.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Mit der Xerox Note Converter App können Sie:&lt;ul&gt;
+        &lt;li&gt; ganz einfach Ihre handgeschriebenen Notizen in ein MS Word-Dokument (.docx) konvertieren.&lt;/li&gt;
+        &lt;li&gt; die Dokumente an Ihre und andere E-Mail-Adressen senden.&lt;/li&gt;
+        &lt;li&gt; auf einfache Weise Dokumente bearbeiten und teilen, ohne etwas neu zu tippen.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Die Bedienung ist kinderleicht und erfordert nur eine Berührung auf ihrem Xerox® Connect Key-fähigen Gerät. Benutzen Sie weiterhin einen Stift, er ist mächtiger als die Tastatur!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Alle Rechte vorbehalten.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="el">
+      <galleryDescription>
+        &lt;p&gt;Κι αν υπήρχε ένας ευκολότερος τρόπο να πάρετε τις σημειώσεις σας από τη σελίδα στον έξω κόσμο;  Με την εφαρμογή Xerox® Note Converter, χρησιμοποιώντας την τελευταία τεχνολογία Google AI, είναι πιο εύκολο από ποτέ.  Με το Xerox® Note Converter και την συσκευή σας με δυνατότητα Xerox® Connect Key, μετατρέψτε γρήγορα τις σημειώσεις σας σε έγγραφο του MS Word ή σε αρχείο κειμένου που σας αποστέλλεται ψηφιακά. Επεξεργαστείτε εύκολα και μοιραστείτε τις σημειώσεις σας με οποιονδήποτε σε εκείνη τη σημαντική συνάντηση από την οποία μόλις φύγατε, εξοικονομώντας πολύτιμο χρόνο για τον εαυτό σας.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Η εφαρμογή Xerox Note Converter  μπορεί να:&lt;ul&gt;
+        &lt;li&gt; Μετατρέψει εύκολα τις χειρόγραφες σημειώσεις σας σε έγγραφο MS Word (.docx)&lt;/li&gt;
+        &lt;li&gt; Αποστείλει τα έγγραφα σε εσάς ή σε άλλη διεύθυνση email.&lt;/li&gt;
+        &lt;li&gt; Επεξεργαστεί εύκολα και στη συνέχεια να κοινοποιήσει χωρίς ανάγκη για νέα δακτυλογράφηση.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Είναι απλό με ένα άγγιγμα στην συσκευή με δυνατότητα Xerox® Connect Key. Συνεχίστε να χρησιμοποιήτε το στυλό, είναι πιο ισχυρό από το πληκτρολόγιο!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Με επιφύλαξη παντός δικαιώματος.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="hu">
+      <galleryDescription>
+        &lt;p&gt;Mi lenne, ha lenne egy könnyebb módszer arra, hogy jegyzeteit digitalizálja?  A Google AI technológiát alkalmazó Xerox® Note Converter alkalmazással könnyebb, mint valaha.  Xerox® Note Converterrel és Xerox® Connect Key-t engedélyezett eszközével, könnyedén konvertálhatja jegyzeteit MS Word dokumentummá, vagy Önnek digitálisan elküldött szöveges fájllá. Könnyedén szerkesztheti és megoszthatja jegyzeteit mindenkivel, aki részt vett azon a fontos értekezleten, ami épp véget ért, így értékes időt megtakarítva.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;A Xerox Note Converter alkalmazás a következőket teszi lehetővé:&lt;ul&gt;
+        &lt;li&gt; Könnyedén konvertálja kézzel írt jegyzeteit MS Word dokumentummá (.docx)&lt;/li&gt;
+        &lt;li&gt; A dokumentumokat elküldheti magának, vagy egy másik e-mail címre.&lt;/li&gt;
+        &lt;li&gt; Könnyedén szerkesztheti, majd megoszthatja anélkül, hogy újra kellene gépelnie.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Egy gombnyomással könnyedén megtehető Xerox® Connect Key engedélyezett eszközön. Használjon továbbra is tollat, többet ér, mint a billentyűzet.&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Minden jog fenntartva.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="it">
+      <galleryDescription>
+        &lt;p&gt;E se ci fosse un modo più semplice per rendere utilizzabili gli appunti?  Con l'app Xerox® Note Converter, basata sulla più recente tecnologia di Google AI, è più facile che mai.  Con Xerox® Note Converter e un dispositivo abilitato per Xerox® Connect Key, puoi convertire velocemente gli appunti in un documento MS Word o in un file di testo scaricabile in formato digitale. Modifica e condividi facilmente gli appunti di quell'importante riunione appena conclusa, risparmiando tempo prezioso.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;L'app Xerox Note Converter consente di:&lt;ul&gt;
+        &lt;li&gt; Convertire facilmente gli appunti scritti a mano in un documento MS Word (.docx).&lt;/li&gt;
+        &lt;li&gt; Inviare i documenti al proprio indirizzo e-mail o a quello di qualcun altro.&lt;/li&gt;
+        &lt;li&gt; Modificare e condividere facilmente i contenuti senza doverli digitare nuovamente.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;È facile, con un semplice tocco sul tuo dispositivo abilitato per Xerox® Connect Key. Continua a usare la penna: è più efficace della tastiera!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Tutti i diritti riservati</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="no">
+      <galleryDescription>
+        &lt;p&gt;Hva hvis det fantes en enklere måte å få notatene dine fra arket og ut i verden på?  Med appen Xerox® Note Converter og den nyeste Google-teknologien for kunstig intelligens er det enklere enn noensinne.  Med Xerox® Note Converter og en Xerox® Connect Key-aktiver enhet kan du raskt konvertere notatene dine til et MS Word-dokument eller en tekstfil som sendes til deg digitalt. Du kan enkelt redigere og dele notatene dine med alle i det viktige møtet du nettopp forlot, slik at du sparer dyrebar tid.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Appen Xerox Note Converter kan gjøre følgende:&lt;ul&gt;
+        &lt;li&gt; enkelt konvertere håndskrevne notater til et MS Word-dokument (.docx)&lt;/li&gt;
+        &lt;li&gt; sende dokumentene til deg selv eller andre e-postadresser&lt;/li&gt;
+        &lt;li&gt; enkelt redigere og så dele uten behov for å skrive noe på nytt&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Det er enkelt med ett trykk på den Xerox® Connect Key-aktiverte enheten. Fortsett å bruke pennen, den er mektigere enn tastaturet!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Med enerett.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="pl">
+      <galleryDescription>
+        &lt;p&gt;A co gdyby istniał łatwiejszy sposób opublikowania papierowych notatek?  Xerox® Note Converter z użyciem najnowszej technologii Google AI sprawia, że jest to łatwiejsze niż kiedykolwiek  Używając Xerox® Note Converter na urządzeniu z Xerox® Connect Key, możesz błyskawicznie przekształcić odręczne notatki do dokumentu MS Word lub pliku tekstowego, a następnie wysłać go do siebie. Z łatwością edytuj i udostępnij swoje notatki uczestnikom ważnego spotkania, które właśnie się skończyło, oszczędzając swój cenny czas.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Aplikacja Xerox Note Converter może:&lt;ul&gt;
+        &lt;li&gt; Z łatwością przekształcić odręczne notatki do dokumentu MS Wor (.docx)&lt;/li&gt;
+        &lt;li&gt; Wysłać dokument na Twój albo inny adres poczty elektronicznej.&lt;/li&gt;
+        &lt;li&gt; Z łatwością edytować i udostępniać bez konieczności ponownego wprowadzania.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Na urządzeniu z Xerox® Connect Key wymaga to tylko jednego dotknięcia. Używaj długopisu, on może więcej niż klawiatura!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Wszystkie prawa zastrzeżone.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="ro">
+      <galleryDescription>
+        &lt;p&gt;Ce ar fi dacă ar exista o cale mai ușoară de a lua notele dvs. de pe hârtie și de a le transmite lumii?  Cu ajutorul aplicației Xerox® Note Converter, care utilizează cea mai modernă tehnologie de inteligență artificială a Google, este mai ușor ca niciodată.  Cu Xerox® Note Converter și un dispozitiv compatibil cu Xerox® Connect Key, puteți transforma rapid notele dvs. într-un document MS Word sau fișier text care vi se va trimite pe cale electronică. Puteți edita cu ușurință și distribui notele dvs. tuturor participanților la acea ședință importantă de la care tocmai ați ieșit, economisind astfel timp prețios.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Posibilitățile aplicației Xerox Note Converter:&lt;ul&gt;
+        &lt;li&gt; Transformați cu ușurință notele scrise cu mâna într-un document MS Word (.docx)&lt;/li&gt;
+        &lt;li&gt; Trimite documentele la adresa dvs. de e-mail sau la altă adresă de e-mail.&lt;/li&gt;
+        &lt;li&gt; Editați cu ușurință și apoi distribuiți documentul fără a retasta textul.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Aveți nevoie de o singură atingere pe dispozitivul compatibil cu Xerox® Connect Key. Continuați să folosiți pixul, este mai grozav decât tastatura!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Toate drepturile rezervate.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="ru">
+      <galleryDescription>
+        &lt;p&gt;Что бы вы сказали, если бы узнали, что рукописные записи с листа можно сделать электронными и доступными в любом уголке Земли еще проще?  С приложением Xerox® Note Converter App еще никогда не было так просто использовать искусственный интеллект Google AI!  Благодаря приложению Xerox® Note Converter App и устройствам, поддерживающими технологию Xerox® Connect Key, вы можете легко превращать рукописные заметки в файлы формата MS Word или просто в текст для использования в других приложениях. Сохраняйте свое драгоценной время, просто делясь с коллегами заметками, например, с только что состоявшегося совещания.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;С приложением Xerox Note Converter App можно:&lt;ul&gt;
+        &lt;li&gt; Легко и просто превращать рукописные заметки в файлы формата MS Word (.docx)&lt;/li&gt;
+        &lt;li&gt; Отправлять документы себе или на другие адреса электронной почты.&lt;/li&gt;
+        &lt;li&gt; Легко редактировать и делиться заметками без необходимости их вводить вручную в электронном формате.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;С устройствами, поддерживающими технологию Xerox® Connect Key, все это доступно вам «на расстоянии одного клика». Продолжайте пользоваться ручкой — ее возможности больше, чем у клавиатуры!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Все права защищены.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="es">
+      <galleryDescription>
+        &lt;p&gt;¿Y si hubiera una manera más fácil de sacar sus notas de la página y ponerlas en el mundo?  Con la aplicación Xerox® Note Converter, utilizando la tecnología más moderna de inteligencia artificial de Google, es más fácil que nunca.  Con Xerox® Note Converter y su dispositivo habilitado para Xerox® Connect Key, convierta rápidamente sus notas en documentos de MS Word o archivos de texto que recibirá digitalmente. Edite fácilmente y comparta sus notas con todos en una reunión importante que acaba de abandonar, ahorrando su precioso tiempo.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;La aplicación Xerox Note Converter puede:&lt;ul&gt;
+        &lt;li&gt; Convertir fácilmente sus notas escritas a mano en un documento MS Word (.docx)&lt;/li&gt;
+        &lt;li&gt; Enviar los documentos a usted mismo o a otra dirección de correo electrónico.&lt;/li&gt;
+        &lt;li&gt; Editar fácilmente para compartir sin tener que reescribir.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Es fácil con un solo toque en el dispositivo habilitado para Xerox® Connect Key. Siga usando este lápiz, ¡es más poderoso que el teclado!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Reservados todos los derechos.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="sv">
+      <galleryDescription>
+        &lt;p&gt;Tänk om det fanns ett enklare sätt att förvandla anteckningar till text?  Med appen Xerox® Note Converter är det enklare än någonsin tack vare Googles senaste AI-teknik.  Med Xerox® Note Converter och din Xerox® Connect Key-kompatibla enhet går det att snabbt omvandla anteckningar till MS Word-dokument eller textfiler som skickas digitalt. Man kan på ett enkelt sätt redigera och dela anteckningar med alla andra från viktiga möten, vilket sparar värdefull tid.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Appen Xerox Note Converter kan man på ett enkelt sätt:&lt;ul&gt;
+        &lt;li&gt; Omvandla handskrivna anteckningar till MS Word-dokument (docx)&lt;/li&gt;
+        &lt;li&gt; Skicka dokumenten till sig själv eller någon annan e-postadress.&lt;/li&gt;
+        &lt;li&gt; Redigera och sedan dela materialet utan att behöva skriva något igen.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Det är enkelt med ett enda klick i den Xerox® Connect Key-kompatibla enheten. Fortsätt använda pennan - den är mäktigare än tangentbordet!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Alla rättigheter förbehålls.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+    <appStringSet lang="tr">
+      <galleryDescription>
+        &lt;p&gt;El yazısıyla tuttuğunuz notları dijitalleştirmenin daha kolay bir yolu olsun istemez miydiniz?  Google’ın yeni Yapay Zeka teknolojisini kullanan Xerox® Note Converter uygulamasıyla bu, artık her zamankinden daha kolay.  Xerox® Note Converter ve Xerox® Connect Key özellikli cihazınızla, notlarınızı hızla bir MS Word belgesi veya metin dosyasına dönüştürüp dijital olarak kendinize gönderebilirsiniz. Önemli toplantılarınızda tuttuğunuz notları kolayca düzenleyip paylaşarak zamandan tasarruf edebilirsiniz.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Xerox Note Converter uygulaması ile  :&lt;ul&gt;
+        &lt;li&gt; El yazısıyla tuttuğunuz notları kolayca MS Word belgesine (.docx) dönüştürün&lt;/li&gt;
+        &lt;li&gt; Belgeleri kendinize veya başka bir e-posta adresine gönderin.&lt;/li&gt;
+        &lt;li&gt; Yazdıklarınızı tekrar tuşlamanız gerekmeden kolayca düzenleyin ve paylaşın.&lt;/li&gt;
+        &lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Xerox® Connect Key özellikli cihazlarda tek dokunuşla dönüştürme kolaylığı. Kaleminizden asla vazgeçmeyin; kalem klavyeden üstündür!&lt;/p&gt;
+      </galleryDescription>
+      <copyright>© 2020 Xerox Corporation. Tüm Hakları Saklıdır.</copyright>
+      <languages>Català, Čeština, Dansk, Nederlands, English, Suomi, Français, Deutsch, Ελληνικά, Magyar, Italiano, Norsk, Polski, Português, Română, Русский, Español, Svenska, Türkçe</languages>
+      <supportLink href="mailto:xerox.app.gallery.feedback@xerox.com"></supportLink>
+      <documentationLink href="http://www.support.xerox.com/support/xerox-app-gallery/support/"></documentationLink>
+      <demonstrationLink href="https://www.youtube.com/watch?v=C6SJnBSXpzo&amp;list=PLioPSVdbzdpYGoXRXdeAqFgL_q-6rEGlR&amp;index=27"></demonstrationLink>
+      <forumLink href="http://forum.support.xerox.com"></forumLink>
+      <privacyLink href="https://www.xerox.com/en-us/about/privacy-policy"></privacyLink>
+    </appStringSet>
+  </appStringSets>
+</appCustomization>

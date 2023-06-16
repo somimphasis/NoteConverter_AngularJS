@@ -1,0 +1,74 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <div class="loading-spinner" style="display:none;background-color:black">
+    </div>
+    <ui-view></ui-view>
+</body>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="dist/app.min.css">
+
+    <script type="text/javascript" src="dist/polyfills.min.js"></script>
+    <script type="text/javascript" src="dist/libs.min.js"></script>
+    <script type="text/javascript" src="dist/app.min.js"></script>
+
+    <title>Xerox Note Converter App</title>
+
+    <style type="text/css">
+
+        .deferred-bootstrap-loading .loading-spinner {
+            display: block !important;
+        }
+
+        .deferred-bootstrap-error #error {
+            display: table !important;
+            background: red;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        var sdkInstance = "appInsightsSDK"; window[sdkInstance] = "appInsights"; var aiName = window[sdkInstance], aisdk = window[aiName] || function (e) { function n(e) { t[e] = function () { var n = arguments; t.queue.push(function () { t[e].apply(t, n) }) } } var t = { config: e }; t.initialize = !0; var i = document, a = window; setTimeout(function () { var n = i.createElement("script"); n.src = e.url || "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js", i.getElementsByTagName("script")[0].parentNode.appendChild(n) }); try { t.cookie = i.cookie } catch (e) { } t.queue = [], t.version = 2; for (var r = ["Event", "PageView", "Exception", "Trace", "DependencyData", "Metric", "PageViewPerformance"]; r.length;)n("track" + r.pop()); n("startTrackPage"), n("stopTrackPage"); var s = "Track" + r[0]; if (n("start" + s), n("stop" + s), n("setAuthenticatedUserContext"), n("clearAuthenticatedUserContext"), n("flush"), !(!0 === e.disableExceptionTracking || e.extensionConfig && e.extensionConfig.ApplicationInsightsAnalytics && !0 === e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)) { n("_" + (r = "onerror")); var o = a[r]; a[r] = function (e, n, i, a, s) { var c = o && o(e, n, i, a, s); return !0 !== c && t["_" + r]({ message: e, url: n, lineNumber: i, columnNumber: a, error: s }), c }, e.autoExceptionInstrumented = !0 } return t }(
+            {
+                instrumentationKey: "@ViewBag.InstrumentationKey",
+                enableAutoRouteTracking: true
+            }
+        ); window[aiName] = aisdk, aisdk.queue && 0 === aisdk.queue.length && aisdk.trackPageView({});
+
+        function suppressQueryStringVariable(url, key) {
+            var regex = new RegExp(key + '\=[a-zA-Z0-9\-\=\+\/\._]*', 'g');
+            var replaceWith = key + '=***';
+            return url.replace(regex, replaceWith);
+        }
+
+        function removeTokens(url) {
+            if (!url) { return url; }
+            url = suppressQueryStringVariable(url, 'access_token');
+            url = suppressQueryStringVariable(url, 'refresh_token');
+            url = suppressQueryStringVariable(url, 'id_token');
+            return url;
+        }
+
+        appInsights.queue.push(function () {
+            appInsights.addTelemetryInitializer(function (envelope) {
+                if ((envelope.baseData.type || '').toLowerCase() === "ajax" &&
+                    (envelope.baseData.name || '').toLowerCase() === "post api/log") {
+                    return false;
+                }
+                envelope.baseData.uri = removeTokens(envelope.baseData.uri);
+                envelope.baseData.refUri = removeTokens(envelope.baseData.refUri);
+            });
+        });
+    </script>
+</head>
+
+</html>

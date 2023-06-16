@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUT_TERMS" xml:space="preserve">
+    <value>Koşullar</value>
+  </data>
+  <data name="ONE_SIDED" xml:space="preserve">
+    <value>1 Taraflı</value>
+  </data>
+  <data name="SDE_11_X_173" xml:space="preserve">
+    <value>11 x 17"</value>
+  </data>
+  <data name="SDE_1SIDED" xml:space="preserve">
+    <value>1 Taraflı</value>
+  </data>
+  <data name="SDE_1SIDED1" xml:space="preserve">
+    <value>1 Taraflı</value>
+  </data>
+  <data name="SDE_2SIDED" xml:space="preserve">
+    <value>2 Taraflı</value>
+  </data>
+  <data name="SDE_2SIDED_ROTATE_SIDE" xml:space="preserve">
+    <value>2 Taraflı, 2. Tarafı Döndür</value>
+  </data>
+  <data name="SDE_2SIDED_SCANNING" xml:space="preserve">
+    <value>2 Taraflı Tarama</value>
+  </data>
+  <data name="SDE_55_X_72" xml:space="preserve">
+    <value>5,5 x 7"</value>
+  </data>
+  <data name="SDE_55_X_854" xml:space="preserve">
+    <value>5,5 x 8,5"</value>
+  </data>
+  <data name="SDE_85_X_114" xml:space="preserve">
+    <value>8,5 x 11"</value>
+  </data>
+  <data name="SDE_85_X_134" xml:space="preserve">
+    <value>8,5 x 13"</value>
+  </data>
+  <data name="SDE_85_X_143" xml:space="preserve">
+    <value>8,5 x 14"</value>
+  </data>
+  <data name="SDE_A31" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="SDE_A41" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="SDE_A51" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="SDE_ACCESS_DENIED1" xml:space="preserve">
+    <value>Erişim engellendi.</value>
+  </data>
+  <data name="SDE_ACCOUNT_DETAILS" xml:space="preserve">
+    <value>Hesap Ayrıntıları</value>
+  </data>
+  <data name="SDE_APP_CANNOT_CONNECT" xml:space="preserve">
+    <value>Uygulama ağa bağlanamıyor.</value>
+  </data>
+  <data name="SDE_APP_UNAVAILABLE_TIME" xml:space="preserve">
+    <value>Uygulama şu anda kullanılamıyor.</value>
+  </data>
+  <data name="SDE_AUTO_DETECT" xml:space="preserve">
+    <value>Otomatik Algıla</value>
+  </data>
+  <data name="SDE_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="SDE_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="SDE_CANCEL" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="SDE_CHANGE_EMAIL" xml:space="preserve">
+    <value>E-postayı Değiştir</value>
+  </data>
+  <data name="SDE_CHARACTERS_CANNOT_BE" xml:space="preserve">
+    <value>Şu karakterler kullanılamaz: {0}</value>
+  </data>
+  <data name="SDE_CHECK_DEVICES_NETWORK" xml:space="preserve">
+    <value>Aygıtınızın ağ bağlantısını kontrol edin. Sorun devam ederse sistem yöneticinize başvurun.</value>
+  </data>
+  <data name="SDE_CLICK_LINK_BELOW" xml:space="preserve">
+    <value>Dosyanızı indirmek için aşağıdaki bağlantıya tıklayın.</value>
+  </data>
+  <data name="SDE_CLOSE" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="SDE_CLOSE2" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="SDE_CONFIRM_EMAIL1" xml:space="preserve">
+    <value>E-postayı Onayla</value>
+  </data>
+  <data name="SDE_CONFIRM_NEW_PASSWORD" xml:space="preserve">
+    <value>Yeni Parolayı Onayla</value>
+  </data>
+  <data name="SDE_CONFIRM_PASSWORD" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="SDE_CONTACT_ADMINISTRATOR_ASSISTANCE" xml:space="preserve">
+    <value>Yardım için yöneticinize başvurun.</value>
+  </data>
+  <data name="SDE_CONTACT_DEVICE_ADMINISTRATOR" xml:space="preserve">
+    <value>Bu hizmetleri etkinleştirmek için aygıt yöneticinize başvurun.</value>
+  </data>
+  <data name="SDE_CONTINUE" xml:space="preserve">
+    <value>Devam</value>
+  </data>
+  <data name="SDE_COPYRIGHT_FMTSTR_XEROX" xml:space="preserve">
+    <value>Telif Hakkı © {0} Xerox Corporation. Tüm hakları saklıdır.</value>
+  </data>
+  <data name="SDE_DEAR_FMTSTR" xml:space="preserve">
+    <value>Sayın {0},</value>
+  </data>
+  <data name="SDE_DELETE" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="SDE_DELETED" xml:space="preserve">
+    <value>Silindi</value>
+  </data>
+  <data name="SDE_DOCUMENT_CONVERSION_ERROR" xml:space="preserve">
+    <value>Belge Dönüştürme Hatası</value>
+  </data>
+  <data name="SDE_DOCUMENT_SUCCESSFULLY_SCANNED" xml:space="preserve">
+    <value>Belge Başarıyla Tarandı.</value>
+  </data>
+  <data name="SDE_DONE" xml:space="preserve">
+    <value>Bitti</value>
+  </data>
+  <data name="SDE_DOWNLOAD_AVAILABLE" xml:space="preserve">
+    <value>İndirilebilir</value>
+  </data>
+  <data name="SDE_EMAIL_ADDRESS6" xml:space="preserve">
+    <value>E-posta Adresi</value>
+  </data>
+  <data name="SDE_EMAIL_ADDRESSES_DO1" xml:space="preserve">
+    <value>E-posta adresleri aynı değil.</value>
+  </data>
+  <data name="SDE_EMAIL_NOT_FOUND" xml:space="preserve">
+    <value>E-posta bulunamadı. Doğru yazdığınızdan emin olarak tekrar deneyin.</value>
+  </data>
+  <data name="SDE_EMAIL_NOT_VALID" xml:space="preserve">
+    <value>E-posta biçimi geçerli değil.</value>
+  </data>
+  <data name="SDE_EMAIL_SENT_FOLLOWING" xml:space="preserve">
+    <value>Hesap kurulumu tamamlama talimatlarının yer aldığı e-posta, aşağıdaki adrese gönderildi.</value>
+  </data>
+  <data name="SDE_EMAIL_VERIFICATION_REQUIRED" xml:space="preserve">
+    <value>E-posta doğrulaması gereklidir.</value>
+  </data>
+  <data name="SDE_EMAIL_VERIFIED_SELECT" xml:space="preserve">
+    <value>E-posta doğrulandı. Devam’ı seçin.</value>
+  </data>
+  <data name="SDE_EMAIL2" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="SDE_ENTER_DIFFERENT_EMAIL1" xml:space="preserve">
+    <value>Lütfen farklı bir e-posta adresi girin.</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL" xml:space="preserve">
+    <value>E-posta Girin</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL_ADDRESS13" xml:space="preserve">
+    <value>Lütfen geçerli bir e-posta adresi girin.</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL_ADDRESS20" xml:space="preserve">
+    <value>E-posta adresi girin</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL_RECEIVE1" xml:space="preserve">
+    <value>Metin dosyası almak için e-posta adresi girin</value>
+  </data>
+  <data name="SDE_ENTER_FILE_NAME1" xml:space="preserve">
+    <value>Dosya Adı Girin</value>
+  </data>
+  <data name="SDE_ERROR" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="SDE_ERROR_OCCURRED" xml:space="preserve">
+    <value>Hata oluştu.</value>
+  </data>
+  <data name="SDE_FILE_NAME" xml:space="preserve">
+    <value>Dosya Adı</value>
+  </data>
+  <data name="SDE_FIRST_NAME" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="SDE_FMTSTR_DATE_TIMEFMTSTR" xml:space="preserve">
+    <value>{0} [Tarih ve Saat].{1}</value>
+  </data>
+  <data name="SDE_FMTSTR_PAGES" xml:space="preserve">
+    <value>{0} Sayfalar</value>
+  </data>
+  <data name="SDE_FMTSTR_PAGES_WERE1" xml:space="preserve">
+    <value>{0} sayfa başarıyla metne dönüştürüldü. Dönüştürülen metin dosyanız ektedir.</value>
+  </data>
+  <data name="SDE_FMTSTRFMTSTR_XEROX_CORPORATION2" xml:space="preserve">
+    <value>© {0} Xerox Corporation. Tüm hakları saklıdır.</value>
+  </data>
+  <data name="SDE_GO_XEROX_APP" xml:space="preserve">
+    <value>Yeni bir abonelik satın almak için Xerox App Gallery'ye gidin.</value>
+  </data>
+  <data name="SDE_I_UNDERSTAND" xml:space="preserve">
+    <value>Anladım.</value>
+  </data>
+  <data name="SDE_IF_DO_NOT8" xml:space="preserve">
+    <value>Birkaç dakika içinde bir e-posta almazsanız, lütfen önemsiz e-postalarınızı kontrol edin. Gelecekteki e-postaları sorunsuz bir şekilde almak için, mesajı 'Önemsiz değil' olarak işaretleyin.</value>
+  </data>
+  <data name="SDE_IF_PROBLEM_PERSISTS3" xml:space="preserve">
+    <value>Sorun devam ederse Xerox destek birimine danışın.</value>
+  </data>
+  <data name="SDE_IF_PROBLEM_PERSISTS4" xml:space="preserve">
+    <value>Sorun devam ederse lütfen Xerox destek birimine başvurun.</value>
+  </data>
+  <data name="SDE_INPUT_SCAN_SIZE" xml:space="preserve">
+    <value>Girdi Tarama Boyutu Belirlenmedi</value>
+  </data>
+  <data name="SDE_JOB_CANCELED1" xml:space="preserve">
+    <value>İş iptal edildi.</value>
+  </data>
+  <data name="SDE_JOB_ID" xml:space="preserve">
+    <value>Görev Kimliği</value>
+  </data>
+  <data name="SDE_JOB_MANAGEMENT_EXTENSION" xml:space="preserve">
+    <value>İş Yönetimi Uzantısı</value>
+  </data>
+  <data name="SDE_JOB_TIMED_OUT" xml:space="preserve">
+    <value>İş zaman aşımına uğradı.</value>
+  </data>
+  <data name="SDE_LOADING" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="SDE_MAXIMUM_PAGES_PER" xml:space="preserve">
+    <value>İş başına maksimum sayfa</value>
+  </data>
+  <data name="SDE_MORE" xml:space="preserve">
+    <value>Diğer</value>
+  </data>
+  <data name="SDE_NAME" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="SDE_OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="SDE_ORIGINAL_NOT_DETECTED" xml:space="preserve">
+    <value>Orijinal algılanmadı.</value>
+  </data>
+  <data name="SDE_ORIGINAL_SIZE" xml:space="preserve">
+    <value>Orijinal Boyut</value>
+  </data>
+  <data name="SDE_PLACE_ORIGINAL_FEEDER" xml:space="preserve">
+    <value>Orijinalinizi besleyiciye veya camın üzerine yerleştirin ve tekrar deneyin.</value>
+  </data>
+  <data name="SDE_PLEASE_CHECK_DOCUMENT" xml:space="preserve">
+    <value>Yeniden denemek için belgenizi kontrol edin ve yeniden tarayın.</value>
+  </data>
+  <data name="SDE_PLEASE_RESCAN_DOCUMENT" xml:space="preserve">
+    <value>Tekrar denemek için lütfen belgenizi yeniden tarayın.</value>
+  </data>
+  <data name="SDE_PLEASE_RESTART_DEVICE" xml:space="preserve">
+    <value>Lütfen aygıtı yeniden başlatın ve tekrar deneyin. Sorun devam ederse Xerox destek birimine danışın</value>
+  </data>
+  <data name="SDE_PLEASE_RESTART_DEVICE1" xml:space="preserve">
+    <value>Lütfen cihazı yeniden başlatın ve tekrar deneyin.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN1" xml:space="preserve">
+    <value>Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN2" xml:space="preserve">
+    <value>Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN6" xml:space="preserve">
+    <value>Lütfen daha sonra tekrar deneyin. Sorun devam ederse Xerox destek birimine danışın.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN9" xml:space="preserve">
+    <value>Lütfen tekrar deneyin. Sorun devam ederse Xerox destek birimine danışın.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAINIF" xml:space="preserve">
+    <value>Lütfen tekrar deneyin.&lt;br/&gt;Sorun devam ederse Xerox destek birimine başvurun.</value>
+  </data>
+  <data name="SDE_PRIVACY" xml:space="preserve">
+    <value>Gizlilik</value>
+  </data>
+  <data name="SDE_PRIVACY_STATEMENT" xml:space="preserve">
+    <value>Gizlilik Beyanı</value>
+  </data>
+  <data name="SDE_PROCESSING1" xml:space="preserve">
+    <value>İşleniyor...</value>
+  </data>
+  <data name="SDE_RENEW_PURCHASE_SUBSCRIPTION1" xml:space="preserve">
+    <value>Tekrar erişim sağlamak için aboneliği yenileyin veya abonelik satın alın.</value>
+  </data>
+  <data name="SDE_REQUIRED_FIELD1" xml:space="preserve">
+    <value>Bu alan gereklidir.</value>
+  </data>
+  <data name="SDE_RESEND" xml:space="preserve">
+    <value>Yeniden gönder</value>
+  </data>
+  <data name="SDE_RESET" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="SDE_SAVE" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="SDE_SAVED" xml:space="preserve">
+    <value>Kaydedildi</value>
+  </data>
+  <data name="SDE_SCAN" xml:space="preserve">
+    <value>Tarama</value>
+  </data>
+  <data name="SDE_SCAN_EXTENSION" xml:space="preserve">
+    <value>Tarama Uzantısı</value>
+  </data>
+  <data name="SDE_SCAN_EXTENSION_SCAN1" xml:space="preserve">
+    <value>Tarama Uzantısı &lt;/br&gt; Tarama Şablonu Yönetimi &lt;/br&gt; İş Yönetimi Uzantısı&lt;div style='padding-top:10px;'&gt;Bu hizmetleri etkinleştirmek için aygıt yöneticinize başvurun.&lt;/div&gt;</value>
+  </data>
+  <data name="SDE_SCAN_TEMPLATE_MANAGEMENT1" xml:space="preserve">
+    <value>Tarama Şablonu Yönetimi</value>
+  </data>
+  <data name="SDE_SCANNING1" xml:space="preserve">
+    <value>Taranıyor...</value>
+  </data>
+  <data name="SDE_SEND_VERIFICATION_CODE" xml:space="preserve">
+    <value>Doğrulama Kodu Gönder</value>
+  </data>
+  <data name="SDE_STATUS" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="SDE_SUBSCRIPTION_ACCESS_XEROX2" xml:space="preserve">
+    <value>Xerox Note Converter erişimi aboneliğinin süresi doldu.</value>
+  </data>
+  <data name="SDE_SUPPLIES_OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="SDE_SUPPORT" xml:space="preserve">
+    <value>Destek</value>
+  </data>
+  <data name="SDE_THANK_USING_WRITTEN" xml:space="preserve">
+    <value>Xerox Note Converter uygulamasını kullandığınız için teşekkürler</value>
+  </data>
+  <data name="SDE_THANK_USING_WRITTEN1" xml:space="preserve">
+    <value>Xerox Note Converter uygulamasını kullandığınız için teşekkürler.</value>
+  </data>
+  <data name="SDE_THANK_YOU" xml:space="preserve">
+    <value>Teşekkür ederiz!</value>
+  </data>
+  <data name="SDE_TO_USE_APP" xml:space="preserve">
+    <value>Bu uygulamayı kullanmak için aşağıdaki web hizmetleri etkinleştirilmelidir.</value>
+  </data>
+  <data name="SDE_UNMONITORED_EMAIL_ADDRESS" xml:space="preserve">
+    <value>Bu izlenmeyen bir E-posta adresidir. Lütfen bu E-posta'yı yanıtlamayın. Yardım için aşağıdaki Destek bağlantısını seçin</value>
+  </data>
+  <data name="SDE_UPDATED" xml:space="preserve">
+    <value>Güncellendi</value>
+  </data>
+  <data name="SDE_WE_WERE_UNABLE5" xml:space="preserve">
+    <value>Belgelerinizi bir metin dosyasına dönüştüremedik.</value>
+  </data>
+  <data name="SDE_WE_WERE_UNABLE6" xml:space="preserve">
+    <value>Metin dönüştürmesine uygun hiçbir sayfa algılayamadık.</value>
+  </data>
+  <data name="SDE_WILL_RECEIVE_EMAIL2" xml:space="preserve">
+    <value>{0} adresinden metin dosyanızı içeren bir e-posta alacaksınız.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION4" xml:space="preserve">
+    <value>Xerox® Note Converter</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION5" xml:space="preserve">
+    <value>Xerox Note Converter sıfırlandı.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION6" xml:space="preserve">
+    <value>Xerox Note Converter uygulaması doğru yapılandırılmamış.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION7" xml:space="preserve">
+    <value>Xerox Note Converter uygulaması ağa bağlanamıyor.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION8" xml:space="preserve">
+    <value>Xerox Note Converter uygulaması şu an kullanılamıyor.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION9" xml:space="preserve">
+    <value>Xerox Note Converter işiniz, izin verilen maksimum sayfa sayısını aştı. Sayfa sayısını {0} veya daha az olarak belirleyin. 8,5 x 11 inç boyutundan veya A4 boyutundan büyük olan her şey 2 sayfa olarak sayılır. Bu iş için hesabınızdan hiçbir sayfa çıkarılmadı.</value>
+  </data>
+  <data name="SDE_XEROX_SCAN" xml:space="preserve">
+    <value>Xerox Tarama</value>
+  </data>
+  <data name="TWO_SIDED" xml:space="preserve">
+    <value>2 Taraflı</value>
+  </data>
+</root>

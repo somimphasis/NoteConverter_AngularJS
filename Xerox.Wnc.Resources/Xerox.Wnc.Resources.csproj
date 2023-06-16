@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Configurations>Debug;Release;Weblets;Local;Functions;Web;Api</Configurations>
+  </PropertyGroup>
+
+</Project>

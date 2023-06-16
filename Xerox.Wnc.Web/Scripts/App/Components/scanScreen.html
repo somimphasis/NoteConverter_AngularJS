@@ -1,0 +1,123 @@
+﻿<!-- Copyright © 2019 Xerox Corporation. All Rights Reserved. -->
+<div class="loading-spinner" id="spinnerIcon" style="display:none"></div>
+
+<privacy-dialog></privacy-dialog>
+
+<form name="$ctrl.mainForm" id="$ctrl.mainForm" class="scanScreen mainForm">
+    <div class="xrx-close" style="max-width:0; max-height:0;"></div> <!-- Preloads the glyph font -->
+
+    <div class="header themed" action-bar>
+
+        <div class="header-right">
+            <!-- XBB-422 Look for undefined, null, or length < 1 -->
+            <button type="button" class="btn btn-medium btn-glyph-label xrx-scan" ng-click="$ctrl.scan()"
+                    ng-disabled="!$ctrl.validationStatus">
+                <span xas-string="SDE_SCAN"></span>
+            </button>
+        </div>
+
+        <div class="header-middle text-large">
+            <div class="header-title-container text-large">
+                <div class="header-title text-large" xas-string="SDE_WRITTEN_NOTE_CONVERSION4"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Scroll container -->
+    <div class="scroll-container" style="position:relative;overflow:hidden;" ng-scrollable='{"autoHeight": true, "watchHeight": true}'>
+        <div class="grid-container">
+
+
+
+            <!-- Email Textbox-->
+            <div class="grid-row themed" ng-class="{'has-warning': $ctrl.hasError('email') }">
+                <div class="column-10-59 column-offset-10-2 column-5-g-61 column-offset-5-c-1">
+                    <text-field name="$ctrl.scanOptionsService.email" placeholder="{{'SDE_ENTER_EMAIL_RECEIVE1' | translate}}" type="email" class="ad-themed">
+                        <input ng-blur="$ctrl.fieldBlur('email');" type="email" name="email" class="form-control textField text-medium login" xas-placeholder="SDE_ENTER_EMAIL_RECEIVE1"
+                               ng-model="$ctrl.scanOptionsService.email" required ng-model-options="{allowInvalid: true}" ng-change="$ctrl.fieldChange('email');" tabindex="-1">
+                    </text-field>
+                </div>
+            </div>
+
+            <div class="grid-row themed" id="emailHasErrors" style="display:none">
+                <div class="validation-error" id="emailHasErrorRequired">
+                    <span class="xrx-glyph xrx-alert"></span><span class="error-message" xas-string="SDE_REQUIRED_FIELD1"></span>
+                </div>
+                <div class="validation-error" id="emailHasErrorNotValid">
+                    <span class="xrx-glyph xrx-alert"></span><span class="error-message" xas-string="SDE_EMAIL_NOT_VALID"></span>
+                </div>
+            </div>
+
+            <!-- File Name-->
+            <div class="grid-row themed themed-header">
+                <div class="column-10-50 column-offset-10-2 column-5-g-48 column-offset-5-c-1">
+                    <button type="button" class="btn btn-medium subjectButton" style="text-align:left;" tabindex="-1">
+                        <editable-field id="scanOptionsServiceFileName" placeholder="SDE_ENTER_FILE_NAME1" name="$ctrl.scanOptionsService.fileName" ng-disabled="$ctrl.scanService.isScanning"
+                                        defaultfilename="Xerox Scan"
+                                        typedfilename="{{$ctrl.scanOptionsService.fileName}}"
+                                        ext="{{$ctrl.scanOptionsService.fileFormat.selectedOption.value}}"
+                                        display-format="SDE_FMTSTR_DATE_TIMEFMTSTR">
+                        </editable-field>
+                    </button>
+                </div>
+
+                <div class="column-10-8 column-offset-10-1 column-5-c-12 column-offset-5-g-1">
+                    <button type="button" class="btn btn-medium"
+                            ng-bind="$ctrl.scanOptionsService.fileFormat.selectedOption.title"
+                            ng-tap-click="$ctrl.openFeaturePopover($ctrl.scanOptionsService.fileFormat)" ></button>
+                </div>
+            </div>
+            <!-- End of File Name-->
+
+            <div class="separator"></div>
+
+            <!-- List of all the scan features/options  -->
+            <div class="grid-row option-content">
+                <div class="column-10-59 column-offset-10-2 column-5-g-61 column-offset-5-c-1">
+
+                    <ul class="action-list">
+                        <!--//XBB-168 - Present and Order by: 2-Sided Scanning, Resolution, Output Color, Original Orientation  -->
+                        <li ng-repeat="feature in $ctrl.scanOptionsService.scanFeatures track by feature.name"
+                            ng-class-odd="'featureOddRow'" ng-class-even="'featureEvenRow'">
+
+                            <button type="button" class="btn btn-medium btn-image" ng-tap-click="$ctrl.openFeaturePopover(feature)" tabindex="-1">
+                                <div class="image-container rounded">
+                                    <img class="image" ng-src="Content/Images/{{feature.icon}}">
+                                </div>
+
+                                <div class="text-container">
+                                    <span class="left-text" xas-string="{{feature.title}}"></span>
+                                    <span ng-if="feature.name=='originalSize'" class="glyph-container wnc-app">
+                                        <span ng-class="feature.selectedOption.glyph"></span>
+                                    </span>
+                                    <span class="right-text" xas-string="{{feature.selectedOption.title}}"></span>
+                                </div>
+                            </button>
+
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Reset button-->
+            <div class="grid-row footer">
+                <div class="grid-row">
+                    <div class="column-10-29 column-offset-10-2 column-5-g-30 column-offset-5-c-1">
+                        <button type="button" class="btn btn-medium" ng-tap-click="$ctrl.resetSettings(true)" tabindex="-1" type="button">
+                            <span xas-string="SDE_RESET"></span>
+                        </button>
+                    </div>
+                    <div class="column-10-29 column-offset-10-1 column-5-g-30 column-offset-5-g-1">
+                        <button type="button" class="btn btn-primary btn-medium" ng-click="$ctrl.openPrivacy()" xas-string="SDE_PRIVACY_STATEMENT"></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</form>

@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUT_TERMS" xml:space="preserve">
+    <value>Condicions</value>
+  </data>
+  <data name="ONE_SIDED" xml:space="preserve">
+    <value>A una cara</value>
+  </data>
+  <data name="SDE_11_X_173" xml:space="preserve">
+    <value>28 x 42,2 cm</value>
+  </data>
+  <data name="SDE_1SIDED" xml:space="preserve">
+    <value>A una cara</value>
+  </data>
+  <data name="SDE_1SIDED1" xml:space="preserve">
+    <value>A una cara</value>
+  </data>
+  <data name="SDE_2SIDED" xml:space="preserve">
+    <value>A doble cara</value>
+  </data>
+  <data name="SDE_2SIDED_ROTATE_SIDE" xml:space="preserve">
+    <value>A doble cara; gira la cara 2</value>
+  </data>
+  <data name="SDE_2SIDED_SCANNING" xml:space="preserve">
+    <value>Escaneig a doble cara</value>
+  </data>
+  <data name="SDE_55_X_72" xml:space="preserve">
+    <value>14 x 17,8 cm</value>
+  </data>
+  <data name="SDE_55_X_854" xml:space="preserve">
+    <value>14 x 21,6 cm</value>
+  </data>
+  <data name="SDE_85_X_114" xml:space="preserve">
+    <value>21,6 x 28 cm</value>
+  </data>
+  <data name="SDE_85_X_134" xml:space="preserve">
+    <value>21,6 x 33 cm</value>
+  </data>
+  <data name="SDE_85_X_143" xml:space="preserve">
+    <value>21,6 x 35,6 cm</value>
+  </data>
+  <data name="SDE_A31" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="SDE_A41" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="SDE_A51" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="SDE_ACCESS_DENIED1" xml:space="preserve">
+    <value>Accés denegat.</value>
+  </data>
+  <data name="SDE_ACCOUNT_DETAILS" xml:space="preserve">
+    <value>Informació del compte</value>
+  </data>
+  <data name="SDE_APP_CANNOT_CONNECT" xml:space="preserve">
+    <value>L'aplicació no es pot connectar a la xarxa.</value>
+  </data>
+  <data name="SDE_APP_UNAVAILABLE_TIME" xml:space="preserve">
+    <value>L'aplicació no està disponible en aquests moments.</value>
+  </data>
+  <data name="SDE_AUTO_DETECT" xml:space="preserve">
+    <value>Detecció automàtica</value>
+  </data>
+  <data name="SDE_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="SDE_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="SDE_CANCEL" xml:space="preserve">
+    <value>Cancel·la</value>
+  </data>
+  <data name="SDE_CHANGE_EMAIL" xml:space="preserve">
+    <value>Canvia l’adreça electrònica</value>
+  </data>
+  <data name="SDE_CHARACTERS_CANNOT_BE" xml:space="preserve">
+    <value>Aquests caràcters no es poden utilitzar: {0}</value>
+  </data>
+  <data name="SDE_CHECK_DEVICES_NETWORK" xml:space="preserve">
+    <value>Comproveu la connexió a la xarxa del dispositiu. Si el problema continua, contacteu amb l'administrador del sistema.</value>
+  </data>
+  <data name="SDE_CLICK_LINK_BELOW" xml:space="preserve">
+    <value>Feu clic a l'enllaç següent per baixar el fitxer.</value>
+  </data>
+  <data name="SDE_CLOSE" xml:space="preserve">
+    <value>Tanca</value>
+  </data>
+  <data name="SDE_CLOSE2" xml:space="preserve">
+    <value>Tanca</value>
+  </data>
+  <data name="SDE_CONFIRM_EMAIL1" xml:space="preserve">
+    <value>Confirmeu l'adreça electrònica</value>
+  </data>
+  <data name="SDE_CONTACT_ADMINISTRATOR_ASSISTANCE" xml:space="preserve">
+    <value>Contacteu amb el vostre administrador per rebre ajuda.</value>
+  </data>
+  <data name="SDE_CONTACT_DEVICE_ADMINISTRATOR" xml:space="preserve">
+    <value>Contacteu amb l'administrador del dispositiu per activar aquests serveis.</value>
+  </data>
+  <data name="SDE_CONTINUE" xml:space="preserve">
+    <value>Continua</value>
+  </data>
+  <data name="SDE_COPYRIGHT_FMTSTR_XEROX" xml:space="preserve">
+    <value>Copyright © {0} Xerox Corporation. Tots els drets reservats.</value>
+  </data>
+  <data name="SDE_DEAR_FMTSTR" xml:space="preserve">
+    <value>Hola, {0},</value>
+  </data>
+  <data name="SDE_DELETE" xml:space="preserve">
+    <value>Suprimeix</value>
+  </data>
+  <data name="SDE_DELETED" xml:space="preserve">
+    <value>S'ha suprimit.</value>
+  </data>
+  <data name="SDE_DOCUMENT_CONVERSION_ERROR" xml:space="preserve">
+    <value>Error en convertir el document</value>
+  </data>
+  <data name="SDE_DOCUMENT_SUCCESSFULLY_SCANNED" xml:space="preserve">
+    <value>El document s'ha escanejat correctament.</value>
+  </data>
+  <data name="SDE_DONE" xml:space="preserve">
+    <value>Fet</value>
+  </data>
+  <data name="SDE_DOWNLOAD_AVAILABLE" xml:space="preserve">
+    <value>Baixada disponible</value>
+  </data>
+  <data name="SDE_EMAIL_ADDRESS6" xml:space="preserve">
+    <value>Adreça electrònica</value>
+  </data>
+  <data name="SDE_EMAIL_ADDRESSES_DO1" xml:space="preserve">
+    <value>Les adreces electròniques no coincideixen.</value>
+  </data>
+  <data name="SDE_EMAIL_NOT_FOUND" xml:space="preserve">
+    <value>No s'ha trobat l'adreça electrònica. Reviseu que estigui ben escrita i torneu-ho a provar.</value>
+  </data>
+  <data name="SDE_EMAIL_NOT_VALID" xml:space="preserve">
+    <value>El format de l’adreça electrònica no és vàlid.</value>
+  </data>
+  <data name="SDE_EMAIL_SENT_FOLLOWING" xml:space="preserve">
+    <value>S'ha enviat un correu electrònic a l'adreça següent amb instruccions per completar la configuració del compte.</value>
+  </data>
+  <data name="SDE_EMAIL_VERIFICATION_REQUIRED" xml:space="preserve">
+    <value>La verificació de l’adreça electrònica és obligatòria.</value>
+  </data>
+  <data name="SDE_EMAIL_VERIFIED_SELECT" xml:space="preserve">
+    <value>S’ha verificat l’adreça electrònica. Selecciona Continua.</value>
+  </data>
+  <data name="SDE_EMAIL2" xml:space="preserve">
+    <value>Adreça electrònica</value>
+  </data>
+  <data name="SDE_ENTER_DIFFERENT_EMAIL1" xml:space="preserve">
+    <value>Introduïu una altra adreça electrònica.</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL" xml:space="preserve">
+    <value>Introduïu l’adreça electrònica</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL_ADDRESS13" xml:space="preserve">
+    <value>Introduïu una adreça electrònica vàlida.</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL_ADDRESS20" xml:space="preserve">
+    <value>Introduïu una adreça </value>
+  </data>
+  <data name="SDE_ENTER_EMAIL_RECEIVE1" xml:space="preserve">
+    <value>Introduïu una adreça electrònica per rebre-hi el fitxer de text.</value>
+  </data>
+  <data name="SDE_ENTER_FILE_NAME1" xml:space="preserve">
+    <value>Introduïu el nom del fitxer</value>
+  </data>
+  <data name="SDE_ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SDE_ERROR_OCCURRED" xml:space="preserve">
+    <value>S'ha produït un error.</value>
+  </data>
+  <data name="SDE_FILE_NAME" xml:space="preserve">
+    <value>Nom del fitxer</value>
+  </data>
+  <data name="SDE_FIRST_NAME" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="SDE_FMTSTR_DATE_TIMEFMTSTR" xml:space="preserve">
+    <value>{0} [Data i hora].{1}</value>
+  </data>
+  <data name="SDE_FMTSTR_PAGES" xml:space="preserve">
+    <value>{0} Pàgines</value>
+  </data>
+  <data name="SDE_FMTSTR_PAGES_WERE1" xml:space="preserve">
+    <value>{0} pàgines s'han convertit a text correctament. Trobareu el vostre fitxer de text adjunt.</value>
+  </data>
+  <data name="SDE_FMTSTRFMTSTR_XEROX_CORPORATION2" xml:space="preserve">
+    <value>© {0} Xerox Corporation. Tots els drets reservats.</value>
+  </data>
+  <data name="SDE_GO_XEROX_APP" xml:space="preserve">
+    <value>Aneu a Xerox App Gallery per adquirir una subscripció nova.</value>
+  </data>
+  <data name="SDE_I_UNDERSTAND" xml:space="preserve">
+    <value>D’acord.</value>
+  </data>
+  <data name="SDE_IF_DO_NOT8" xml:space="preserve">
+    <value>Si no rebeu cap correu d'aquí a uns quants minuts, reviseu la carpeta de correu brossa. Per assegurar-vos que rebeu els nostres correus electrònics a partir d'ara, indiqueu que no és un correu brossa.</value>
+  </data>
+  <data name="SDE_IF_PROBLEM_PERSISTS3" xml:space="preserve">
+    <value>Si el problema continua, contacteu amb l'equip d'assistència de Xerox.</value>
+  </data>
+  <data name="SDE_IF_PROBLEM_PERSISTS4" xml:space="preserve">
+    <value>Si el problema continua, contacteu amb l'equip d'assistència de Xerox.</value>
+  </data>
+  <data name="SDE_INPUT_SCAN_SIZE" xml:space="preserve">
+    <value>No s'ha determinat la mida d'escaneig d'entrada.</value>
+  </data>
+  <data name="SDE_JOB_CANCELED1" xml:space="preserve">
+    <value>La tasca s'ha cancel·lat.</value>
+  </data>
+  <data name="SDE_JOB_ID" xml:space="preserve">
+    <value>Identificador de la tasca</value>
+  </data>
+  <data name="SDE_JOB_MANAGEMENT_EXTENSION" xml:space="preserve">
+    <value>Extensió de gestió de tasques</value>
+  </data>
+  <data name="SDE_JOB_TIMED_OUT" xml:space="preserve">
+    <value>S'ha esgotat el temps d'espera de la tasca.</value>
+  </data>
+  <data name="SDE_LOADING" xml:space="preserve">
+    <value>S'està carregant.</value>
+  </data>
+  <data name="SDE_MAXIMUM_PAGES_PER" xml:space="preserve">
+    <value>Pàgines màximes per tasca</value>
+  </data>
+  <data name="SDE_MORE" xml:space="preserve">
+    <value>Més</value>
+  </data>
+  <data name="SDE_NAME" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="SDE_OK" xml:space="preserve">
+    <value>D'acord</value>
+  </data>
+  <data name="SDE_ORIGINAL_NOT_DETECTED" xml:space="preserve">
+    <value>No s'ha detectat l'original.</value>
+  </data>
+  <data name="SDE_ORIGINAL_SIZE" xml:space="preserve">
+    <value>Mida original</value>
+  </data>
+  <data name="SDE_PLACE_ORIGINAL_FEEDER" xml:space="preserve">
+    <value>Col·loqueu l'original a l'alimentador o al vidre i torneu-ho a provar.</value>
+  </data>
+  <data name="SDE_PLEASE_CHECK_DOCUMENT" xml:space="preserve">
+    <value>Comproveu el document i escanegeu-lo de nou per tornar-ho a provar.</value>
+  </data>
+  <data name="SDE_PLEASE_RESCAN_DOCUMENT" xml:space="preserve">
+    <value>Torneu a escanejar el document per tornar-ho a intentar.</value>
+  </data>
+  <data name="SDE_PLEASE_RESTART_DEVICE" xml:space="preserve">
+    <value>Reinicieu el dispositiu i torneu-ho a provar. Si el problema continua, contacteu amb l'equip d'assistència de Xerox.</value>
+  </data>
+  <data name="SDE_PLEASE_RESTART_DEVICE1" xml:space="preserve">
+    <value>Reinicieu el dispositiu i torneu-ho a provar.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN1" xml:space="preserve">
+    <value>Torneu-ho a provar.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN2" xml:space="preserve">
+    <value>Torneu-ho a provar més tard.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN6" xml:space="preserve">
+    <value>Torneu-ho a provar més tard. Si el problema continua, contacteu amb l'equip d'assistència de Xerox.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN9" xml:space="preserve">
+    <value>Torneu-ho a provar. Si el problema continua, contacteu amb l'equip d'assistència de Xerox.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAINIF" xml:space="preserve">
+    <value>Torneu-ho a provar.&lt;br/&gt;Si el problema continua, contacteu amb l'equip d'assistència de Xerox.</value>
+  </data>
+  <data name="SDE_PRIVACY" xml:space="preserve">
+    <value>Privadesa</value>
+  </data>
+  <data name="SDE_PRIVACY_STATEMENT" xml:space="preserve">
+    <value>Declaració de privadesa</value>
+  </data>
+  <data name="SDE_PROCESSING1" xml:space="preserve">
+    <value>S'està processant…</value>
+  </data>
+  <data name="SDE_RENEW_PURCHASE_SUBSCRIPTION1" xml:space="preserve">
+    <value>Renoveu o adquiriu una subscripció per restaurar l'accés.</value>
+  </data>
+  <data name="SDE_REQUIRED_FIELD1" xml:space="preserve">
+    <value>Aquest camp és obligatori.</value>
+  </data>
+  <data name="SDE_RESEND" xml:space="preserve">
+    <value>Torna a enviar</value>
+  </data>
+  <data name="SDE_RESET" xml:space="preserve">
+    <value>Restableix</value>
+  </data>
+  <data name="SDE_SAVE" xml:space="preserve">
+    <value>Desa</value>
+  </data>
+  <data name="SDE_SAVED" xml:space="preserve">
+    <value>S’ha desat</value>
+  </data>
+  <data name="SDE_SCAN" xml:space="preserve">
+    <value>Escaneja</value>
+  </data>
+  <data name="SDE_SCAN_EXTENSION" xml:space="preserve">
+    <value>Extensió d'escaneig</value>
+  </data>
+  <data name="SDE_SCAN_EXTENSION_SCAN1" xml:space="preserve">
+    <value>Extensió d’escaneig &lt;/br&gt; Gestió de plantilles d’escaneig &lt;/br&gt; Extensió de gestió de tasques&lt;div style='padding-top:10px;'&gt;Contacteu amb l'administrador del dispositiu per activar aquests serveis.&lt;/div&gt;</value>
+  </data>
+  <data name="SDE_SCAN_TEMPLATE_MANAGEMENT1" xml:space="preserve">
+    <value>Gestió de plantilles d'escaneig</value>
+  </data>
+  <data name="SDE_SCANNING1" xml:space="preserve">
+    <value>S'està escanejant...</value>
+  </data>
+  <data name="SDE_SEND_VERIFICATION_CODE" xml:space="preserve">
+    <value>Envia el codi de verificació</value>
+  </data>
+  <data name="SDE_STATUS" xml:space="preserve">
+    <value>Estat</value>
+  </data>
+  <data name="SDE_SUBSCRIPTION_ACCESS_XEROX2" xml:space="preserve">
+    <value>La subscripció per accedir a Xerox Note Converter ha caducat.</value>
+  </data>
+  <data name="SDE_SUPPLIES_OK" xml:space="preserve">
+    <value>D'acord</value>
+  </data>
+  <data name="SDE_SUPPORT" xml:space="preserve">
+    <value>Assistència</value>
+  </data>
+  <data name="SDE_THANK_USING_WRITTEN" xml:space="preserve">
+    <value>Gràcies per utilitzar Xerox Note Converter</value>
+  </data>
+  <data name="SDE_THANK_USING_WRITTEN1" xml:space="preserve">
+    <value>Gràcies per utilitzar Xerox Note Converter.</value>
+  </data>
+  <data name="SDE_THANK_YOU" xml:space="preserve">
+    <value>Gràcies!</value>
+  </data>
+  <data name="SDE_TO_USE_APP" xml:space="preserve">
+    <value>Per utilitzar aquesta aplicació, cal activar els serveis web següents.</value>
+  </data>
+  <data name="SDE_UNMONITORED_EMAIL_ADDRESS" xml:space="preserve">
+    <value>Aquesta adreça electrònica no està supervisada. No respongueu a aquest correu electrònic. Seleccioneu l’enllaç d’assistència següent per obtenir ajuda</value>
+  </data>
+  <data name="SDE_UPDATED" xml:space="preserve">
+    <value>S’ha actualitzat</value>
+  </data>
+  <data name="SDE_WE_WERE_UNABLE5" xml:space="preserve">
+    <value>No hem pogut convertir els documents a un fitxer de text.</value>
+  </data>
+  <data name="SDE_WE_WERE_UNABLE6" xml:space="preserve">
+    <value>No hem pogut detectar cap pàgina adequada per a la conversió a text.</value>
+  </data>
+  <data name="SDE_WILL_RECEIVE_EMAIL2" xml:space="preserve">
+    <value>Rebreu un correu electrònic de {0} amb el vostre fitxer de text.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION4" xml:space="preserve">
+    <value>Xerox® Note Converter</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION5" xml:space="preserve">
+    <value>S’ha restablert Xerox Note Converter.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION6" xml:space="preserve">
+    <value>L'aplicació Xerox Note Converter no està configurada correctament.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION7" xml:space="preserve">
+    <value>L'aplicació Xerox Note Converter no es pot connectar a la xarxa.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION8" xml:space="preserve">
+    <value>L'aplicació Xerox Note Converter no està disponible en aquests moments.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION9" xml:space="preserve">
+    <value>La tasca de Xerox Note Converter supera el nombre màxim de pàgines permès. Redueix el nombre de pàgines a {0} o menys. Els documents de més de 21,6 x 27,9 cm o A4 compten com a 2 pàgines. No s'ha descomptat cap pàgina del vostre compte per aquesta tasca.</value>
+  </data>
+  <data name="SDE_XEROX_SCAN" xml:space="preserve">
+    <value>Escàner Xerox</value>
+  </data>
+  <data name="TWO_SIDED" xml:space="preserve">
+    <value>A doble cara</value>
+  </data>
+</root>

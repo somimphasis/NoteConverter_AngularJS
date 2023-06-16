@@ -1,0 +1,183 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xerox.Wnc.Web", "Xerox.Wnc.Web\Xerox.Wnc.Web.csproj", "{72D51799-E069-453C-997E-5B0DC4BEE9CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xerox.Wnc.Resources", "Xerox.Wnc.Resources\Xerox.Wnc.Resources.csproj", "{B804D405-6B9C-4100-8438-71B046BB591C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3E60F09-AF2C-445B-B252-6911FDCB64D6}"
+	ProjectSection(SolutionItems) = preProject
+		Nuget.config = Nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{71CE6AAD-BC48-48F2-A154-18D765241118}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\launch-local-greg-newapi.bat = Scripts\launch-local-greg-newapi.bat
+		Scripts\launch-local-greg.bat = Scripts\launch-local-greg.bat
+		Scripts\launch-local-rick.bat = Scripts\launch-local-rick.bat
+		Scripts\launch.bat = Scripts\launch.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xerox.Wnc.Weblet", "Xerox.Wnc.Weblet\Xerox.Wnc.Weblet.csproj", "{CCF478ED-39B9-4252-B0E8-0A29645EE55B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{D73AA946-EA12-47C4-87C2-9F89B830F6F2}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Azure\ConnectTo-Azure.ps1 = Scripts\Azure\ConnectTo-Azure.ps1
+		Scripts\Azure\Create-ApplicationInsights.ps1 = Scripts\Azure\Create-ApplicationInsights.ps1
+		Scripts\Azure\Create-AppServicePlans.ps1 = Scripts\Azure\Create-AppServicePlans.ps1
+		Scripts\Azure\Create-AppServices.ps1 = Scripts\Azure\Create-AppServices.ps1
+		Scripts\Azure\Create-AzureFunctionApps.ps1 = Scripts\Azure\Create-AzureFunctionApps.ps1
+		Scripts\Azure\Create-Container.ps1 = Scripts\Azure\Create-Container.ps1
+		Scripts\Azure\Create-KeyVaults.ps1 = Scripts\Azure\Create-KeyVaults.ps1
+		Scripts\Azure\Create-PortalContainers.ps1 = Scripts\Azure\Create-PortalContainers.ps1
+		Scripts\Azure\Create-PrivacyPolicyAndEULA.ps1 = Scripts\Azure\Create-PrivacyPolicyAndEULA.ps1
+		Scripts\Azure\Create-QueuesAndStorageContainers.ps1 = Scripts\Azure\Create-QueuesAndStorageContainers.ps1
+		Scripts\Azure\Create-TrafficManagers.ps1 = Scripts\Azure\Create-TrafficManagers.ps1
+		Scripts\Azure\Create-WncContainers.ps1 = Scripts\Azure\Create-WncContainers.ps1
+		Scripts\Azure\Create-WncEnvironment.ps1 = Scripts\Azure\Create-WncEnvironment.ps1
+		Scripts\Azure\Get-AllRegions.ps1 = Scripts\Azure\Get-AllRegions.ps1
+		Scripts\Azure\Get-EnvSuffix.ps1 = Scripts\Azure\Get-EnvSuffix.ps1
+		Scripts\Azure\Get-Regions.ps1 = Scripts\Azure\Get-Regions.ps1
+		Scripts\Azure\Update-CustomDomains.ps1 = Scripts\Azure\Update-CustomDomains.ps1
+		Scripts\Azure\Update-KeyVaults.ps1 = Scripts\Azure\Update-KeyVaults.ps1
+		Scripts\Azure\Upgrade-AzureFunctionApps.ps1 = Scripts\Azure\Upgrade-AzureFunctionApps.ps1
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xerox.Wnc.Interfaces", "Xerox.Wnc.Interfaces\Xerox.Wnc.Interfaces.csproj", "{BE412E39-4A04-47DE-B7A5-C54CD70364C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{792A4F70-9520-4B59-9BDC-44C852AEE8C6}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Postman\Dev-AppService Dist.postman_environment.json = Scripts\Postman\Dev-AppService Dist.postman_environment.json
+		Dev.postman_environment.json = Dev.postman_environment.json
+		Local.postman_environment.json = Local.postman_environment.json
+		Production.postman_environment.json = Production.postman_environment.json
+		Staging.postman_environment.json = Staging.postman_environment.json
+		Test.postman_environment.json = Test.postman_environment.json
+		Scripts\Postman\WNC Service.postman_collection.json = Scripts\Postman\WNC Service.postman_collection.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release Notes Scripts", "Release Notes Scripts", "{37EEA713-204E-4E51-9C74-D1D84B0CC370}"
+	ProjectSection(SolutionItems) = preProject
+		..\Tools\Release Notes Scripts\Generate Release Notes.yml = ..\Tools\Release Notes Scripts\Generate Release Notes.yml
+		..\Tools\Release Notes Scripts\Git based WIKI Updater.yml = ..\Tools\Release Notes Scripts\Git based WIKI Updater.yml
+		..\Tools\Release Notes Scripts\Publish Release Notes to Wiki.json = ..\Tools\Release Notes Scripts\Publish Release Notes to Wiki.json
+		..\Tools\Release Notes Scripts\Release Notes Template.md = ..\Tools\Release Notes Scripts\Release Notes Template.md
+		..\Tools\Release Notes Scripts\WNC-API-old.json = ..\Tools\Release Notes Scripts\WNC-API-old.json
+		..\Tools\Release Notes Scripts\WNC-API.json = ..\Tools\Release Notes Scripts\WNC-API.json
+		..\Tools\Release Notes Scripts\WNC-Azure-Functions-old.json = ..\Tools\Release Notes Scripts\WNC-Azure-Functions-old.json
+		..\Tools\Release Notes Scripts\WNC-Azure-Functions.json = ..\Tools\Release Notes Scripts\WNC-Azure-Functions.json
+		..\Tools\Release Notes Scripts\WNC-Functions.json = ..\Tools\Release Notes Scripts\WNC-Functions.json
+		..\Tools\Release Notes Scripts\WNC-MFD-App-old.json = ..\Tools\Release Notes Scripts\WNC-MFD-App-old.json
+		..\Tools\Release Notes Scripts\WNC-MFD-App.json = ..\Tools\Release Notes Scripts\WNC-MFD-App.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xerox.Wnc.Common", "Xerox.Wnc.Common\Xerox.Wnc.Common.csproj", "{00866012-9700-4D95-A226-6A886C282854}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Api|Any CPU = Api|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Functions|Any CPU = Functions|Any CPU
+		Local|Any CPU = Local|Any CPU
+		MetadataWeb|Any CPU = MetadataWeb|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Rest|Any CPU = Rest|Any CPU
+		Web|Any CPU = Web|Any CPU
+		Weblets|Any CPU = Weblets|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Api|Any CPU.ActiveCfg = Api|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Functions|Any CPU.ActiveCfg = Functions|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Local|Any CPU.Build.0 = Local|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.MetadataWeb|Any CPU.ActiveCfg = Web|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.MetadataWeb|Any CPU.Build.0 = Web|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Rest|Any CPU.ActiveCfg = Release|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Rest|Any CPU.Build.0 = Release|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Web|Any CPU.ActiveCfg = Web|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Web|Any CPU.Build.0 = Web|Any CPU
+		{72D51799-E069-453C-997E-5B0DC4BEE9CC}.Weblets|Any CPU.ActiveCfg = Weblets|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Api|Any CPU.ActiveCfg = Api|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Api|Any CPU.Build.0 = Api|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Functions|Any CPU.ActiveCfg = Functions|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Functions|Any CPU.Build.0 = Functions|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Local|Any CPU.Build.0 = Local|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.MetadataWeb|Any CPU.ActiveCfg = Web|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.MetadataWeb|Any CPU.Build.0 = Web|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Rest|Any CPU.ActiveCfg = Release|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Rest|Any CPU.Build.0 = Release|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Web|Any CPU.ActiveCfg = Web|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Web|Any CPU.Build.0 = Web|Any CPU
+		{B804D405-6B9C-4100-8438-71B046BB591C}.Weblets|Any CPU.ActiveCfg = Weblets|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Api|Any CPU.ActiveCfg = Api|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Functions|Any CPU.ActiveCfg = Functions|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.MetadataWeb|Any CPU.ActiveCfg = Web|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.MetadataWeb|Any CPU.Build.0 = Web|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Rest|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Rest|Any CPU.Build.0 = Release|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Web|Any CPU.ActiveCfg = Web|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Weblets|Any CPU.ActiveCfg = Weblets|Any CPU
+		{CCF478ED-39B9-4252-B0E8-0A29645EE55B}.Weblets|Any CPU.Build.0 = Weblets|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Api|Any CPU.ActiveCfg = Api|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Api|Any CPU.Build.0 = Api|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Functions|Any CPU.ActiveCfg = Functions|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Functions|Any CPU.Build.0 = Functions|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.MetadataWeb|Any CPU.ActiveCfg = Web|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.MetadataWeb|Any CPU.Build.0 = Web|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Rest|Any CPU.ActiveCfg = Release|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Rest|Any CPU.Build.0 = Release|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Web|Any CPU.ActiveCfg = Web|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Web|Any CPU.Build.0 = Web|Any CPU
+		{BE412E39-4A04-47DE-B7A5-C54CD70364C2}.Weblets|Any CPU.ActiveCfg = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Api|Any CPU.ActiveCfg = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Api|Any CPU.Build.0 = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Functions|Any CPU.ActiveCfg = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Functions|Any CPU.Build.0 = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.MetadataWeb|Any CPU.ActiveCfg = Release|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.MetadataWeb|Any CPU.Build.0 = Release|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Rest|Any CPU.ActiveCfg = Release|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Rest|Any CPU.Build.0 = Release|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Web|Any CPU.ActiveCfg = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Web|Any CPU.Build.0 = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Weblets|Any CPU.ActiveCfg = Debug|Any CPU
+		{00866012-9700-4D95-A226-6A886C282854}.Weblets|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71CE6AAD-BC48-48F2-A154-18D765241118} = {D3E60F09-AF2C-445B-B252-6911FDCB64D6}
+		{D73AA946-EA12-47C4-87C2-9F89B830F6F2} = {71CE6AAD-BC48-48F2-A154-18D765241118}
+		{792A4F70-9520-4B59-9BDC-44C852AEE8C6} = {71CE6AAD-BC48-48F2-A154-18D765241118}
+		{37EEA713-204E-4E51-9C74-D1D84B0CC370} = {71CE6AAD-BC48-48F2-A154-18D765241118}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA264E86-47FD-4A3D-A830-B1F5DC37F24E}
+	EndGlobalSection
+EndGlobal

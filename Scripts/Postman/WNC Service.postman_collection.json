@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "deddc473-861e-4ba1-9d8d-07cf35ec1267",
+		"name": "WNC Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "WNC Job Submission",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "File",
+							"type": "file",
+							"src": "/C:/Users/50523517/Downloads/QB.tif"
+						},
+						{
+							"key": "Wait",
+							"value": "true",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{wnc-address}}/api/v1/jobs?jobId={{$guid}}&filename=scan.tif&title=Xerox%20Scan&localizedLanguage=en-US&mp3Language=en&timeZoneOffsetMinutes=240&emailAddress=doug.allen2@xerox.com",
+					"host": [
+						"{{wnc-address}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "jobId",
+							"value": "{{$guid}}"
+						},
+						{
+							"key": "userId",
+							"value": "664bf345-7a04-416c-9a3f-4b11b88f2e20",
+							"disabled": true
+						},
+						{
+							"key": "filename",
+							"value": "scan.tif"
+						},
+						{
+							"key": "title",
+							"value": "Xerox%20Scan"
+						},
+						{
+							"key": "localizedLanguage",
+							"value": "en-US"
+						},
+						{
+							"key": "mp3Language",
+							"value": "en"
+						},
+						{
+							"key": "timeZoneOffsetMinutes",
+							"value": "240"
+						},
+						{
+							"key": "emailAddress",
+							"value": "doug.allen2@xerox.com"
+						},
+						{
+							"key": "galleryServerRoot",
+							"value": "https://appgallerytest.services.xerox.com/",
+							"disabled": true
+						},
+						{
+							"key": "appId",
+							"value": "d8c49545-9263-4ccf-85a4-64ecc7245655",
+							"disabled": true
+						},
+						{
+							"key": "deviceId",
+							"value": "5619255e-7622-4a4e-9323-26909e7380e4",
+							"disabled": true
+						},
+						{
+							"key": "ocr",
+							"value": "AZUREOCR",
+							"disabled": true
+						},
+						{
+							"key": "orientation",
+							"value": "LANDSCAPE",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WNC Job Status",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{wnc-address}}/api/v1/documents?includeArchived=false",
+					"host": [
+						"{{wnc-address}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "includeArchived",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "accessToken",
+				"value": "{{auth-token}}",
+				"type": "string"
+			},
+			{
+				"key": "tokenType",
+				"value": "Bearer",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "c43f8b0d-2b15-4e06-8e95-caf902b96319",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f0d18bbd-cb6e-4ade-be16-ea9eb872fbfa",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

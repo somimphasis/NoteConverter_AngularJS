@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUT_TERMS" xml:space="preserve">
+    <value>Ehdot</value>
+  </data>
+  <data name="ONE_SIDED" xml:space="preserve">
+    <value>Yksipuolinen</value>
+  </data>
+  <data name="SDE_11_X_173" xml:space="preserve">
+    <value>11 x 17"</value>
+  </data>
+  <data name="SDE_1SIDED" xml:space="preserve">
+    <value>Yksipuolinen</value>
+  </data>
+  <data name="SDE_1SIDED1" xml:space="preserve">
+    <value>Yksipuolinen</value>
+  </data>
+  <data name="SDE_2SIDED" xml:space="preserve">
+    <value>Kaksipuolinen</value>
+  </data>
+  <data name="SDE_2SIDED_ROTATE_SIDE" xml:space="preserve">
+    <value>Kaksipuolinen, kierrä puolta 2</value>
+  </data>
+  <data name="SDE_2SIDED_SCANNING" xml:space="preserve">
+    <value>Kaksipuolinen skannaus</value>
+  </data>
+  <data name="SDE_55_X_72" xml:space="preserve">
+    <value>5,5 x 7"</value>
+  </data>
+  <data name="SDE_55_X_854" xml:space="preserve">
+    <value>5,5 x 8,5"</value>
+  </data>
+  <data name="SDE_85_X_114" xml:space="preserve">
+    <value>8,5 x 11"</value>
+  </data>
+  <data name="SDE_85_X_134" xml:space="preserve">
+    <value>8,5 x 13"</value>
+  </data>
+  <data name="SDE_85_X_143" xml:space="preserve">
+    <value>8,5 x 14"</value>
+  </data>
+  <data name="SDE_A31" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="SDE_A41" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="SDE_A51" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="SDE_ACCESS_DENIED1" xml:space="preserve">
+    <value>Käyttö estetty.</value>
+  </data>
+  <data name="SDE_ACCOUNT_DETAILS" xml:space="preserve">
+    <value>Tilin tiedot</value>
+  </data>
+  <data name="SDE_APP_CANNOT_CONNECT" xml:space="preserve">
+    <value>Sovellus ei saa yhteyttä verkkoon.</value>
+  </data>
+  <data name="SDE_APP_UNAVAILABLE_TIME" xml:space="preserve">
+    <value>Sovellusta ei voi käyttää nyt.</value>
+  </data>
+  <data name="SDE_AUTO_DETECT" xml:space="preserve">
+    <value>Autom. havaitseminen</value>
+  </data>
+  <data name="SDE_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="SDE_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="SDE_CANCEL" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="SDE_CHANGE_EMAIL" xml:space="preserve">
+    <value>Muuta sähköpostiosoite</value>
+  </data>
+  <data name="SDE_CHARACTERS_CANNOT_BE" xml:space="preserve">
+    <value>Näitä merkkejä ei voi käyttää: {0}</value>
+  </data>
+  <data name="SDE_CHECK_DEVICES_NETWORK" xml:space="preserve">
+    <value>Tarkista laitteen verkkoyhteys. Mikäli virhe ei poistu, ota yhteyttä järjestelmänvalvojaan.</value>
+  </data>
+  <data name="SDE_CLICK_LINK_BELOW" xml:space="preserve">
+    <value>Lataa tiedostosi napsauttamalla alla olevaa linkkiä.</value>
+  </data>
+  <data name="SDE_CLOSE" xml:space="preserve">
+    <value>Sulje</value>
+  </data>
+  <data name="SDE_CLOSE2" xml:space="preserve">
+    <value>Sulje</value>
+  </data>
+  <data name="SDE_CONFIRM_EMAIL1" xml:space="preserve">
+    <value>Vahvista sähköposti</value>
+  </data>
+  <data name="SDE_CONFIRM_NEW_PASSWORD" xml:space="preserve">
+    <value>Vahvista uusi salasana</value>
+  </data>
+  <data name="SDE_CONFIRM_PASSWORD" xml:space="preserve">
+    <value>Vahvista salasana</value>
+  </data>
+  <data name="SDE_CONTACT_ADMINISTRATOR_ASSISTANCE" xml:space="preserve">
+    <value>Pyydä ohjeita järjestelmänvalvojaltasi.</value>
+  </data>
+  <data name="SDE_CONTACT_DEVICE_ADMINISTRATOR" xml:space="preserve">
+    <value>Ota yhteys laitteen järjestelmänvalvojaan palveluiden käyttöä varten.</value>
+  </data>
+  <data name="SDE_CONTINUE" xml:space="preserve">
+    <value>Jatka</value>
+  </data>
+  <data name="SDE_COPYRIGHT_FMTSTR_XEROX" xml:space="preserve">
+    <value>Copyright © {0} Xerox Corporation. Kaikki oikeudet pidätetään.</value>
+  </data>
+  <data name="SDE_DEAR_FMTSTR" xml:space="preserve">
+    <value>Hyvä {0},</value>
+  </data>
+  <data name="SDE_DELETE" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="SDE_DELETED" xml:space="preserve">
+    <value>Poistettu</value>
+  </data>
+  <data name="SDE_DOCUMENT_CONVERSION_ERROR" xml:space="preserve">
+    <value>Asiakirjan muunnosvirhe</value>
+  </data>
+  <data name="SDE_DOCUMENT_SUCCESSFULLY_SCANNED" xml:space="preserve">
+    <value>Asiakirjan skannaus onnistui.</value>
+  </data>
+  <data name="SDE_DONE" xml:space="preserve">
+    <value>Valmis</value>
+  </data>
+  <data name="SDE_DOWNLOAD_AVAILABLE" xml:space="preserve">
+    <value>Lataus saatavilla</value>
+  </data>
+  <data name="SDE_EMAIL_ADDRESS6" xml:space="preserve">
+    <value>Sähköpostiosoite</value>
+  </data>
+  <data name="SDE_EMAIL_ADDRESSES_DO1" xml:space="preserve">
+    <value>Annetut sähköpostiosoitteet eivät täsmää.</value>
+  </data>
+  <data name="SDE_EMAIL_NOT_FOUND" xml:space="preserve">
+    <value>S-postia ei löydy. Tarkista oikeinkirjoitus ja yritä uudelleen.</value>
+  </data>
+  <data name="SDE_EMAIL_NOT_VALID" xml:space="preserve">
+    <value>Sähköpostiosoitteen muoto on virheellinen.</value>
+  </data>
+  <data name="SDE_EMAIL_SENT_FOLLOWING" xml:space="preserve">
+    <value>Seuraavaan osoitteeseen on lähetetty sähköpostiviesti, jossa on ohjeet tilin viimeistelyä varten.</value>
+  </data>
+  <data name="SDE_EMAIL_VERIFICATION_REQUIRED" xml:space="preserve">
+    <value>Sähköpostiosoitteen vahvistus tarvitaan.</value>
+  </data>
+  <data name="SDE_EMAIL_VERIFIED_SELECT" xml:space="preserve">
+    <value>Sähköpostiosoite on vahvistettu. Valitse Jatka.</value>
+  </data>
+  <data name="SDE_EMAIL2" xml:space="preserve">
+    <value>Sähköposti</value>
+  </data>
+  <data name="SDE_ENTER_DIFFERENT_EMAIL1" xml:space="preserve">
+    <value>Anna jokin muu sähköpostiosoite.</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL" xml:space="preserve">
+    <value>Anna s-posti</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL_ADDRESS13" xml:space="preserve">
+    <value>Anna kelvollinen sähköpostiosoite.</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL_ADDRESS20" xml:space="preserve">
+    <value>Anna sähköpostiosoite</value>
+  </data>
+  <data name="SDE_ENTER_EMAIL_RECEIVE1" xml:space="preserve">
+    <value>Anna sähköpostiosoite, jotta voit vastaanottaa tekstitiedoston</value>
+  </data>
+  <data name="SDE_ENTER_FILE_NAME1" xml:space="preserve">
+    <value>Anna tiedoston nimi</value>
+  </data>
+  <data name="SDE_ERROR" xml:space="preserve">
+    <value>Virhe</value>
+  </data>
+  <data name="SDE_ERROR_OCCURRED" xml:space="preserve">
+    <value>On tapahtunut virhe.</value>
+  </data>
+  <data name="SDE_FILE_NAME" xml:space="preserve">
+    <value>Tiedoston nimi</value>
+  </data>
+  <data name="SDE_FIRST_NAME" xml:space="preserve">
+    <value>Etunimi</value>
+  </data>
+  <data name="SDE_FMTSTR_DATE_TIMEFMTSTR" xml:space="preserve">
+    <value>{0} [Päivämäärä ja aika].{1}</value>
+  </data>
+  <data name="SDE_FMTSTR_PAGES" xml:space="preserve">
+    <value>{0} Sivut</value>
+  </data>
+  <data name="SDE_FMTSTR_PAGES_WERE1" xml:space="preserve">
+    <value>{0} sivua muunnettiin tekstimuotoon. Muunnettu tekstitiedosto on liitteenä.</value>
+  </data>
+  <data name="SDE_FMTSTRFMTSTR_XEROX_CORPORATION2" xml:space="preserve">
+    <value>© {0} Xerox Corporation. Kaikki oikeudet pidätetään.</value>
+  </data>
+  <data name="SDE_GO_XEROX_APP" xml:space="preserve">
+    <value>Siirry Xerox App Gallery -sivustoon uutta tilausta varten.</value>
+  </data>
+  <data name="SDE_I_UNDERSTAND" xml:space="preserve">
+    <value>Ymmärrän.</value>
+  </data>
+  <data name="SDE_IF_DO_NOT8" xml:space="preserve">
+    <value>Jos et saa viestiä muutaman minuutin kuluessa, tarkista roskaposti-kansiosi. Varmista tulevien sähköpostiviestien saapuminen määrittämällä viesti arvolla Ei roskapostia.</value>
+  </data>
+  <data name="SDE_IF_PROBLEM_PERSISTS3" xml:space="preserve">
+    <value>Jos ongelma ei poistu, ota yhteyttä Xerox-tukeen.</value>
+  </data>
+  <data name="SDE_IF_PROBLEM_PERSISTS4" xml:space="preserve">
+    <value>Jos ongelma ei poistu, ota yhteyttä Xerox-tukeen.</value>
+  </data>
+  <data name="SDE_INPUT_SCAN_SIZE" xml:space="preserve">
+    <value>Skannauksen syöttökokoa ei määritetty</value>
+  </data>
+  <data name="SDE_JOB_CANCELED1" xml:space="preserve">
+    <value>Työ on peruutettu.</value>
+  </data>
+  <data name="SDE_JOB_ID" xml:space="preserve">
+    <value>Työn tunnus</value>
+  </data>
+  <data name="SDE_JOB_MANAGEMENT_EXTENSION" xml:space="preserve">
+    <value>Työnhallinnan laajennos</value>
+  </data>
+  <data name="SDE_JOB_TIMED_OUT" xml:space="preserve">
+    <value>Työssä ilmeni aikakatkaisu</value>
+  </data>
+  <data name="SDE_LOADING" xml:space="preserve">
+    <value>Ladataan...</value>
+  </data>
+  <data name="SDE_MAXIMUM_PAGES_PER" xml:space="preserve">
+    <value>Sivujen enimmäismäärä työtä kohti</value>
+  </data>
+  <data name="SDE_MORE" xml:space="preserve">
+    <value>Lisää</value>
+  </data>
+  <data name="SDE_NAME" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="SDE_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SDE_ORIGINAL_NOT_DETECTED" xml:space="preserve">
+    <value>Originaalia ei havaittu.</value>
+  </data>
+  <data name="SDE_ORIGINAL_SIZE" xml:space="preserve">
+    <value>Alkuperäinen koko</value>
+  </data>
+  <data name="SDE_PLACE_ORIGINAL_FEEDER" xml:space="preserve">
+    <value>Aseta originaali lasille ja yritä uudelleen.</value>
+  </data>
+  <data name="SDE_PLEASE_CHECK_DOCUMENT" xml:space="preserve">
+    <value>Tarkista asiakirja ja yritä skannata uudelleen.</value>
+  </data>
+  <data name="SDE_PLEASE_RESCAN_DOCUMENT" xml:space="preserve">
+    <value>Skannaa asiakirja uudelleen ja yritä uudelleen.</value>
+  </data>
+  <data name="SDE_PLEASE_RESTART_DEVICE" xml:space="preserve">
+    <value>Käynnistä laite uudelleen ja yritä uudelleen. Jos ongelma ei poistu, ota yhteyttä Xerox-tukeen.</value>
+  </data>
+  <data name="SDE_PLEASE_RESTART_DEVICE1" xml:space="preserve">
+    <value>Käynnistä laite uudelleen ja yritä uudelleen.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN1" xml:space="preserve">
+    <value>Yritä uudelleen.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN2" xml:space="preserve">
+    <value>Yritä uudelleen myöhemmin.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN6" xml:space="preserve">
+    <value>Yritä uudelleen myöhemmin. Jos ongelma ei poistu, ota yhteyttä Xerox-tukeen.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAIN9" xml:space="preserve">
+    <value>Yritä uudelleen. Jos ongelma ei poistu, ota yhteyttä Xerox-tukeen.</value>
+  </data>
+  <data name="SDE_PLEASE_TRY_AGAINIF" xml:space="preserve">
+    <value>Yritä uudelleen.&lt;br/&gt;Jos ongelma ei poistu, ota yhteyttä Xerox-tukeen.</value>
+  </data>
+  <data name="SDE_PRIVACY" xml:space="preserve">
+    <value>Tietosuoja</value>
+  </data>
+  <data name="SDE_PRIVACY_STATEMENT" xml:space="preserve">
+    <value>Tietosuojalauseke</value>
+  </data>
+  <data name="SDE_PROCESSING1" xml:space="preserve">
+    <value>Käsitellään...</value>
+  </data>
+  <data name="SDE_RENEW_PURCHASE_SUBSCRIPTION1" xml:space="preserve">
+    <value>Palauta käyttöoikeus uusimalla tai ostamalla tilaus.</value>
+  </data>
+  <data name="SDE_REQUIRED_FIELD1" xml:space="preserve">
+    <value>Tämä kenttä on pakollinen.</value>
+  </data>
+  <data name="SDE_RESEND" xml:space="preserve">
+    <value>Lähetä uudelleen</value>
+  </data>
+  <data name="SDE_RESET" xml:space="preserve">
+    <value>Nollaa</value>
+  </data>
+  <data name="SDE_SAVE" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="SDE_SAVED" xml:space="preserve">
+    <value>Tallennettu</value>
+  </data>
+  <data name="SDE_SCAN" xml:space="preserve">
+    <value>Skannaus</value>
+  </data>
+  <data name="SDE_SCAN_EXTENSION" xml:space="preserve">
+    <value>Skannauslaajennos</value>
+  </data>
+  <data name="SDE_SCAN_EXTENSION_SCAN1" xml:space="preserve">
+    <value>Skannauslaajennos &lt;/br&gt; Skannausmallin hallinta &lt;/br&gt; Työnhallinnan laajennos&lt;div style='padding-top:10px;'&gt;Ota yhteys laitteen järjestelmänvalvojaan palveluiden käyttöä varten.&lt;/div&gt;</value>
+  </data>
+  <data name="SDE_SCAN_TEMPLATE_MANAGEMENT1" xml:space="preserve">
+    <value>Skannausmallin hallinta</value>
+  </data>
+  <data name="SDE_SCANNING1" xml:space="preserve">
+    <value>Skannaa...</value>
+  </data>
+  <data name="SDE_SEND_VERIFICATION_CODE" xml:space="preserve">
+    <value>Lähetä vahvistuskoodi</value>
+  </data>
+  <data name="SDE_STATUS" xml:space="preserve">
+    <value>Tila</value>
+  </data>
+  <data name="SDE_SUBSCRIPTION_ACCESS_XEROX2" xml:space="preserve">
+    <value>Xerox Note Converter -palvelun käyttöoikeuden tilaus on vanhentunut.</value>
+  </data>
+  <data name="SDE_SUPPLIES_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SDE_SUPPORT" xml:space="preserve">
+    <value>Tuki</value>
+  </data>
+  <data name="SDE_THANK_USING_WRITTEN" xml:space="preserve">
+    <value>Kiitos Xerox Note Converter -sovelluksen käytöstä</value>
+  </data>
+  <data name="SDE_THANK_USING_WRITTEN1" xml:space="preserve">
+    <value>Kiitos Xerox Note Converter -sovelluksen käytöstä.</value>
+  </data>
+  <data name="SDE_THANK_YOU" xml:space="preserve">
+    <value>Kiitos!</value>
+  </data>
+  <data name="SDE_TO_USE_APP" xml:space="preserve">
+    <value>Tämän sovelluksen käyttöä varten on seuraavien palveluiden oltava käytössä.</value>
+  </data>
+  <data name="SDE_UNMONITORED_EMAIL_ADDRESS" xml:space="preserve">
+    <value>Tätä sähköpostiosoitetta ei tarkkailla. Älä vastaa tähän viestiin. Valitse tukilinkki alla apua varten</value>
+  </data>
+  <data name="SDE_UPDATED" xml:space="preserve">
+    <value>Päivitetty</value>
+  </data>
+  <data name="SDE_WE_WERE_UNABLE5" xml:space="preserve">
+    <value>Asiakirjojasi ei voitu muuntaa tekstitiedostoksi.</value>
+  </data>
+  <data name="SDE_WE_WERE_UNABLE6" xml:space="preserve">
+    <value>Ei havaittu yhtään tekstimuuntoon soveltuvaa sivua.</value>
+  </data>
+  <data name="SDE_WILL_RECEIVE_EMAIL2" xml:space="preserve">
+    <value>{0} lähettää sinulle sähköpostiviestin, jossa on tekstitiedostosi.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION4" xml:space="preserve">
+    <value>Xerox® Note Converter</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION5" xml:space="preserve">
+    <value>Xerox Note Converter on nollattu.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION6" xml:space="preserve">
+    <value>Xerox Note Converter -sovellusta ei ole konfiguroitu oikein.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION7" xml:space="preserve">
+    <value>Xerox Note Converter -sovellus ei saa yhteyttä verkkoon.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION8" xml:space="preserve">
+    <value>Xerox Note Converter -sovellusta ei nyt voi käyttää.</value>
+  </data>
+  <data name="SDE_WRITTEN_NOTE_CONVERSION9" xml:space="preserve">
+    <value>Xerox Note Converter -työsi ylitti sivujen sallitun enimmäismäärän. Vähennä sivujen määräksi enintään {0}. Huomaa, että kokoa 8.5 x 11" tai A4 suurempi lasketaan 2 sivuksi. Tililtäsi ei vähennetty yhtään sivua tämän työn osalta.</value>
+  </data>
+  <data name="SDE_XEROX_SCAN" xml:space="preserve">
+    <value>Xerox skannaus</value>
+  </data>
+  <data name="TWO_SIDED" xml:space="preserve">
+    <value>Kaksipuolinen</value>
+  </data>
+</root>

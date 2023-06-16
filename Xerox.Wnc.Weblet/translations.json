@@ -1,0 +1,162 @@
+{
+  "en": {
+    "SDE_TO_USE_APP1": "To use this app, Web Services must be enabled.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "This service is currently not available",
+    "SDE_IF_PROBLEM_PERSISTS3": "If the problem persists, contact Xerox support.",
+    "SDE_PLEASE_TRY_AGAIN2": "Please try again later.",
+    "SDE_CONNECTING": "Connecting...",
+    "SDE_CLOSE": "Close"
+  },
+  "ca": {
+    "SDE_TO_USE_APP1": "Per utilitzar aquesta aplicació, cal activar els serveis web.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Actualment aquest servei no està disponible",
+    "SDE_IF_PROBLEM_PERSISTS3": "Si el problema continua, contacteu amb l'equip d'assistència de Xerox.",
+    "SDE_PLEASE_TRY_AGAIN2": "Torneu-ho a provar més tard.",
+    "SDE_CONNECTING": "S'està connectant…",
+    "SDE_CLOSE": "Tanca"
+  },
+  "cs": {
+    "SDE_TO_USE_APP1": "K používání této aplikace musí být povoleny webové služby.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Služba je momentálně nedostupná",
+    "SDE_IF_PROBLEM_PERSISTS3": "Pokud problém trvá, kontaktujte podporu Xerox.",
+    "SDE_PLEASE_TRY_AGAIN2": "Zkuste to prosím znovu později.",
+    "SDE_CONNECTING": "Připojování...",
+    "SDE_CLOSE": "Zavřít"
+  },
+  "da": {
+    "SDE_TO_USE_APP1": "For at anvende denne app skal webtjenester være aktiveret.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Denne service er ikke aktuelt tilgængelig",
+    "SDE_IF_PROBLEM_PERSISTS3": "Kontakt Xerox Support, hvis problemet opstår igen.",
+    "SDE_PLEASE_TRY_AGAIN2": "Prøv igen senere.",
+    "SDE_CONNECTING": "Opretter forbindelse ...",
+    "SDE_CLOSE": "Luk"
+  },
+  "de": {
+    "SDE_TO_USE_APP1": "Diese App kann nur verwendet werden, wenn die Web-Services aktiviert sind.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Dieser Service ist zurzeit nicht verfügbar",
+    "SDE_IF_PROBLEM_PERSISTS3": "Bleibt das Problem weiter bestehen, kontaktieren Sie den Xerox-Kundendienst.",
+    "SDE_PLEASE_TRY_AGAIN2": "Bitte versuchen Sie es später noch einmal.",
+    "SDE_CONNECTING": "Verbindung wird aufgebaut...",
+    "SDE_CLOSE": "Schließen"
+  },
+  "es": {
+    "SDE_TO_USE_APP1": "Para usar esta aplicación debe tener activados los servicios web.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Este servicio no está disponible en estos momentos",
+    "SDE_IF_PROBLEM_PERSISTS3": "Si el problema persiste, contacte con la asistencia de Xerox.",
+    "SDE_PLEASE_TRY_AGAIN2": "Pruebe de nuevo más tarde.",
+    "SDE_CONNECTING": "Conectando...",
+    "SDE_CLOSE": "Cerrar"
+  },
+  "fr": {
+    "SDE_TO_USE_APP1": "Pour utiliser cette application, vous devez activer les services Web.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Pour l'instant, ce service est indisponible.",
+    "SDE_IF_PROBLEM_PERSISTS3": "Si le problème persiste, contactez l'assistance de Xerox.",
+    "SDE_PLEASE_TRY_AGAIN2": "Réessayez ultérieurement.",
+    "SDE_CONNECTING": "Connexion en cours...",
+    "SDE_CLOSE": "Fermer"
+  },
+  "it": {
+    "SDE_TO_USE_APP1": "Per utilizzare questa app occorre che i servizi web siano abilitati.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Questo servizio non è attualmente disponibile",
+    "SDE_IF_PROBLEM_PERSISTS3": "Se il problema persiste, contattare il centro di assistenza Xerox",
+    "SDE_PLEASE_TRY_AGAIN2": "Riprovare più tardi.",
+    "SDE_CONNECTING": "Connessione in corso...",
+    "SDE_CLOSE": "Chiudi"
+  },
+  "hu": {
+    "SDE_TO_USE_APP1": "Az alkalmazás használatához webes szolgáltatásokat kell engedélyezni.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Ez a szolgáltatás jelenleg nem elérhető",
+    "SDE_IF_PROBLEM_PERSISTS3": "Ha a probléma továbbra is fennáll, forduljon a Xerox támogatásához.",
+    "SDE_PLEASE_TRY_AGAIN2": "Próbálja újra később.",
+    "SDE_CONNECTING": "Csatlakozás...",
+    "SDE_CLOSE": "Bezárás"
+  },
+  "nl": {
+    "SDE_TO_USE_APP1": "Om deze app te kunnen gebruiken, moeten webservices zijn ingeschakeld.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Deze service is momenteel niet beschikbaar",
+    "SDE_IF_PROBLEM_PERSISTS3": "Neem contact op met de ondersteuning van Xerox als het probleem niet is verholpen.",
+    "SDE_PLEASE_TRY_AGAIN2": "Probeer het later opnieuw.",
+    "SDE_CONNECTING": "Verbinding maken...",
+    "SDE_CLOSE": "Sluiten"
+  },
+  "no": {
+    "SDE_TO_USE_APP1": "For å bruke denne appen må nettjenester være aktivert.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Denne tjenesten er ikke tilgjengelig for øyeblikket",
+    "SDE_IF_PROBLEM_PERSISTS3": "Ta kontakt med Xerox-brukerstøtte hvis problemet vedvarer.",
+    "SDE_PLEASE_TRY_AGAIN2": "Prøv igjen senere.",
+    "SDE_CONNECTING": "Kobler til ...",
+    "SDE_CLOSE": "Lukk"
+  },
+  "nb": {
+    "SDE_TO_USE_APP1": "For å bruke denne appen må nettjenester være aktivert.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Denne tjenesten er ikke tilgjengelig for øyeblikket",
+    "SDE_IF_PROBLEM_PERSISTS3": "Ta kontakt med Xerox-brukerstøtte hvis problemet vedvarer.",
+    "SDE_PLEASE_TRY_AGAIN2": "Prøv igjen senere.",
+    "SDE_CONNECTING": "Kobler til ...",
+    "SDE_CLOSE": "Lukk"
+  },
+  "pl": {
+    "SDE_TO_USE_APP1": "Aby można było korzystać z aplikacji, muszą być włączone usługi sieci Web.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Ta usługa jest obecnie niedostępna",
+    "SDE_IF_PROBLEM_PERSISTS3": "Jeśli problem wciąż występuje, skontaktuj się z pomocą techniczną Xerox.",
+    "SDE_PLEASE_TRY_AGAIN2": "Spróbuj ponownie później.",
+    "SDE_CONNECTING": "Łączenie...",
+    "SDE_CLOSE": "Zamknij"
+  },
+  "pt": {
+    "SDE_TO_USE_APP1": "Para que este aplicativo possa ser usado, o(s) serviço(s) de Web precisam estar habilitados.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Este serviço não se encontra disponível no momento",
+    "SDE_IF_PROBLEM_PERSISTS3": "Se o problema persistir, entre em contato com o suporte Xerox.",
+    "SDE_PLEASE_TRY_AGAIN2": "Tente novamente mais tarde.",
+    "SDE_CONNECTING": "Conectando...",
+    "SDE_CLOSE": "Fechar"
+  },
+  "ro": {
+    "SDE_TO_USE_APP1": "Pentru a folosi această aplicație, trebuie activate serviciile web.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Acest serviciu nu este disponibil în prezent",
+    "SDE_IF_PROBLEM_PERSISTS3": "Dacă problema persistă, contactați asistența Xerox.",
+    "SDE_PLEASE_TRY_AGAIN2": "Încercați din nou mai târziu.",
+    "SDE_CONNECTING": "Se conectează...",
+    "SDE_CLOSE": "Închidere"
+  },
+  "fi": {
+    "SDE_TO_USE_APP1": "Tämän sovelluksen käyttöä varten on Web-palveluiden oltava käytössä.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Palvelu ei ole nyt saatavilla",
+    "SDE_IF_PROBLEM_PERSISTS3": "Jos ongelma ei poistu, ota yhteyttä Xerox-tukeen.",
+    "SDE_PLEASE_TRY_AGAIN2": "Yritä uudelleen myöhemmin.",
+    "SDE_CONNECTING": "Yhdistää...",
+    "SDE_CLOSE": "Sulje"
+  },
+  "sv": {
+    "SDE_TO_USE_APP1": "För att använda denna app måste webbtjänster vara aktiverade.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Denna tjänst är för närvarande inte tillgänglig",
+    "SDE_IF_PROBLEM_PERSISTS3": "Kontakta Xerox supportavdelning om problemet kvarstår.",
+    "SDE_PLEASE_TRY_AGAIN2": "Försök igen senare.",
+    "SDE_CONNECTING": "Ansluter...",
+    "SDE_CLOSE": "Stäng"
+  },
+  "tr": {
+    "SDE_TO_USE_APP1": "Bu uygulamayı kullanmak için web Hizmetleri etkinleştirilmelidir.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Bu hizmet şu anda kullanılamıyor",
+    "SDE_IF_PROBLEM_PERSISTS3": "Sorun devam ederse Xerox destek birimine danışın.",
+    "SDE_PLEASE_TRY_AGAIN2": "Lütfen daha sonra tekrar deneyin.",
+    "SDE_CONNECTING": "Bağlanıyor...",
+    "SDE_CLOSE": "Kapat"
+  },
+  "el": {
+    "SDE_TO_USE_APP1": "Για να χρησιμοποιήσετε αυτήν την εφαρμογή, πρέπει να είναι ενεργοποιημένες οι υπηρεσίες ιστού.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Αυτή η λειτουργία δεν είναι διαθέσιμη επί του παρόντος",
+    "SDE_IF_PROBLEM_PERSISTS3": "Αν το πρόβλημα επιμένει, επικοινωνήστε με το τμήμα Υποστήριξης της Xerox.",
+    "SDE_PLEASE_TRY_AGAIN2": "Προσπαθήστε ξανά αργότερα.",
+    "SDE_CONNECTING": "Γίνεται σύνδεση...",
+    "SDE_CLOSE": "Κλείσιμο"
+  },
+  "ru": {
+    "SDE_TO_USE_APP1": "Для использования этого приложения необходимо включить веб-службы.",
+    "SDE_SERVICE_CURRENTLY_NOT1": "Эта услуга в настоящее время недоступна",
+    "SDE_IF_PROBLEM_PERSISTS3": "Если проблему не удается устранить, обратитесь в службу поддержки Xerox.",
+    "SDE_PLEASE_TRY_AGAIN2": "Повторите попытку позже.",
+    "SDE_CONNECTING": "Подключение...",
+    "SDE_CLOSE": "Закрыть"
+  }
+}

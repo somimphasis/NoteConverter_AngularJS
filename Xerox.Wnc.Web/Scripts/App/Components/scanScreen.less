@@ -1,0 +1,31 @@
+﻿// Copyright © 2019 Xerox Corporation. All Rights Reserved.
+scan-screen {
+
+    .has-warning {
+        .xrx-alert,
+        .help-block {
+            color: #bc1620;
+        }
+
+        &.themed {
+            .xrx-alert,
+            .help-block {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .scanScreen .editable-field-label {
+        color: #fff !important;
+    }
+
+    .reset-margin {
+        margin-top: 4px !important;
+        margin-bottom: 4px;
+
+        @media (min-width: 1024px) {
+            margin-top: 11.75px !important;
+            margin-bottom: 13.5px;
+        }
+    }
+}

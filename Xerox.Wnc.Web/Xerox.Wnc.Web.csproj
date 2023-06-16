@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <UserSecretsId>7c148ca9-61af-4229-861f-7a828e7588e6</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/799edbbd-fdab-4580-bf3e-a537b417aa4b/resourcegroups/devapps-ms-dev/providers/microsoft.insights/components/xerox-services-dev-ai</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/799edbbd-fdab-4580-bf3e-a537b417aa4b/resourcegroups/devapps-ms-dev/providers/microsoft.insights/components/xerox-services-dev-ai</ApplicationInsightsAnnotationResourceId>
+    <Configurations>Debug;Release;Weblets;Local;Functions;Web;Api</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ExternalAuthenticationController.cs" />
+    <Compile Remove="Models\SSOOptions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\App\Services\jobService.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Scripts\App\Services\jobService.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.20.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.TraceListener" Version="2.20.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.ApplicationInsights" Version="2.20.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.EventSource" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xerox.Wnc.Common\Xerox.Wnc.Common.csproj" />
+    <ProjectReference Include="..\Xerox.Wnc.Interfaces\Xerox.Wnc.Interfaces.csproj" />
+    <ProjectReference Include="..\Xerox.Wnc.Resources\Xerox.Wnc.Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+</Project>

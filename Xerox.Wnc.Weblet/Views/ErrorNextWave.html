@@ -1,0 +1,123 @@
+﻿
+
+<style>
+    body {
+        width: auto;
+        height: auto;
+        background: rgba(27, 27, 27, .90);
+    }
+
+    .processingDialog button,
+    .processingDialog {
+        color: white !important;
+    }
+
+        .processingDialog button:active {
+            background-color: white !important;
+            color: black !important;
+        }
+
+    .centerPopover {
+        position: fixed !important;
+        top: 50% !important;
+        left: 50% !important;
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .gridContainer {
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .action {
+        display: block;
+    }
+
+        .action button.btn {
+            background-color: transparent;
+            border: 1px solid !important;
+            border-color: white !important;
+            border-radius: 3px;
+        }
+
+    @media(min-width:800px) {
+        .large {
+            font-size: 32px;
+        }
+
+        .medium {
+            font-size: 28px;
+        }
+
+        .action {
+            margin-top: 10px;
+        }
+
+            .action button.btn.medium {
+                height: 68px;
+                min-width: 68px;
+                font-weight: bold;
+                padding: 16px;
+            }
+
+        .close:before {
+            margin-right: 12px;
+            content: 'X';
+        }
+    }
+
+    @media(min-width:1024px) {
+        .large {
+            font-size: 28px;
+        }
+
+        .medium {
+            font-size: 24px;
+        }
+
+        .action {
+            margin-top: 16px;
+        }
+
+            .action button.btn.medium {
+                height: 62px;
+                min-width: 68px;
+                font-weight: bold;
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+        .close:before {
+            font-family: "XeroxGlyphRegular";
+            content: '\2716';
+            font-size: 36px;
+            margin-right: 12px;
+            line-height: 0.8;
+        }
+    }
+</style>
+
+
+<div class="processingDialog">
+    <div class="centerPopover gridContainer text-center">
+        <div class="large localizeLine1"></div>
+        <div class="medium localizeLine2"></div>
+        <div class="medium localizeLine3"></div>
+        <div class="action">
+            <button class="btn normal medium" onclick="exit();">
+                <div class="close" style="float:left"></div>
+                <span class="localize" style="float:right">SDE_CLOSE</span>
+            </button>
+        </div>
+    </div>
+</div>

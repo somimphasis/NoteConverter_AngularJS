@@ -1,0 +1,15 @@
+﻿@import (optional) 'basicAlert.less';
+
+progress-alert {
+    &:extend(basic-alert all);
+
+    .progress-spinner {
+        position: relative;
+        background-image: url('../Content/images/spin.gif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 128px;
+        height: 128px;
+        margin-bottom: 10px;
+    }
+}

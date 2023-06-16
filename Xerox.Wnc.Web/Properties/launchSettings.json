@@ -1,0 +1,77 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:60337",
+      "sslPort": 44395
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Xerox.Wnc.Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "DelayStartup": "false",
+        "Azure__KeyVault__Cert__Url": "https://XAGProductionKeyVault.vault.azure.net",
+        "Azure__KeyVault__ClientId": "7bec0f2d-36ad-40c0-b331-7e6fa733051d",
+        "Azure__KeyVault__ClientSecret": "lfkDNzSUgrcZ8ULisp+eJx4oOyBzn2FPNMJQHZJ3Thk=",
+        "ASPNETCORE_ENVIRONMENT": "Local",
+        "Azure__KeyVault__Url": "https://xerox-wnc-dev.vault.azure.net"
+      },
+      "applicationUrl": "http://10.24.8.71:5550"
+    },
+    "Xerox.Wnc.Web.Rick": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Identity__WsFederation__CookieDomain": "localhost",
+        "DelayStartup": "false",
+        "Azure__Auth__Url": "https://localhost:5500",
+        "WNC__Web__Cors__Origins": "http://localhost:5501,https://localhost:5501,https://xeroxb2cdev.b2clogin.com",
+        "Azure__KeyVault__Cert__Url": "https://XAGProductionKeyVault.vault.azure.net",
+        "Azure__KeyVault__ClientId": "7bec0f2d-36ad-40c0-b331-7e6fa733051d",
+        "Azure__KeyVault__ClientSecret": "lfkDNzSUgrcZ8ULisp+eJx4oOyBzn2FPNMJQHZJ3Thk=",
+        "ASPNETCORE_ENVIRONMENT": "Local",
+        "Azure__KeyVault__Url": "https://xerox-wnc-dev.vault.azure.net"
+      },
+      "applicationUrl": "http://192.168.1.38:5550"
+    },
+    "Xerox.Wnc.Web.Greg": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Identity__WsFederation__CookieDomain": "localhost",
+        "DelayStartup": "false",
+        "Azure__Auth__Url": "https://localhost:5500",
+        "WNC__Web__Cors__Origins": "http://localhost:5501,https://localhost:5501,https://xeroxb2cdev.b2clogin.com",
+        "Azure__KeyVault__Cert__Url": "https://XAGProductionKeyVault.vault.azure.net",
+        "Azure__KeyVault__ClientId": "7bec0f2d-36ad-40c0-b331-7e6fa733051d",
+        "Azure__KeyVault__ClientSecret": "lfkDNzSUgrcZ8ULisp+eJx4oOyBzn2FPNMJQHZJ3Thk=",
+        "ASPNETCORE_ENVIRONMENT": "Local",
+        "Azure__KeyVault__Url": "https://xerox-wnc-dev.vault.azure.net"
+      },
+      "applicationUrl": "http://10.24.8.111:5550"
+    },
+    "Xerox.Wnc.Web.LocalHost": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Identity__WsFederation__CookieDomain": "localhost",
+        "DelayStartup": "false",
+        "Azure__Auth__Url": "https://localhost:5500",
+        "WNC__Web__Cors__Origins": "http://localhost:5501,https://localhost:5501,https://xeroxb2cdev.b2clogin.com",
+        "Azure__KeyVault__Cert__Url": "https://XAGProductionKeyVault.vault.azure.net",
+        "Azure__KeyVault__ClientId": "7bec0f2d-36ad-40c0-b331-7e6fa733051d",
+        "Azure__KeyVault__ClientSecret": "lfkDNzSUgrcZ8ULisp+eJx4oOyBzn2FPNMJQHZJ3Thk=",
+        "ASPNETCORE_ENVIRONMENT": "Local",
+        "Azure__KeyVault__Url": "https://xerox-wnc-dev.vault.azure.net"
+      },
+      "applicationUrl": "http://localhost:5550"
+    }
+  }
+}

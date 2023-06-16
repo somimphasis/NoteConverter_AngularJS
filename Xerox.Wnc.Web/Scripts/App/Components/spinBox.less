@@ -1,0 +1,143 @@
+﻿.btn-spin:active .xrx-spinbox-button.option-text {
+    color: #fff !important;
+}
+
+spin-box {
+    .xrx-spinbox {
+        margin: 5px;
+    }
+
+    .xrx-spinbox .xrx-spinbox-button {
+        display: inline-block;
+        height: 50px;
+        width: 68px;
+        outline: none;
+        font-size: 36px;
+        vertical-align: middle;
+        border: none;
+        border: 1px solid transparent !important;
+        border-radius: 0px;
+        box-shadow: none;
+        cursor: pointer;
+    }
+
+    .xrx-spinbox input.xrx-spinbox-button {
+        text-align: center;
+        padding: 1px 12px;
+        margin: 0px;
+        font-size: 24px;
+        box-shadow: none;
+    }
+
+    .xrx-spinbox input.xrx-spinbox-button:focus {
+        border-color: black !important;
+        box-shadow: inset 1px 1px 2px rgba(11, 46, 86, 0.5)
+    }
+
+    .xrx-spinbox input:disabled {
+        cursor: default;
+    }
+
+    .xrx-spinbox .xrx-spinbox-button-container {
+        margin-left: -1px;
+        display: inline-block;
+        background: url(../Content/Images/Textures/gray_medium.png) 0 0 repeat;
+    }
+
+    .xrx-spinbox .xrx-spinbox-first-button {
+        border-top-left-radius: 4px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 4px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    .xrx-spinbox .xrx-spinbox-last-button {
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 4px !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 4px !important;
+    }
+
+    .xrx-spinbox .xrx-spinbox-border, .xrx-spinbox .xrx-spinbox-first-button, .xrx-spinbox .xrx-spinbox-last-button {
+        border-color: #380a2e !important;
+    }
+
+    .xrx-spinbox .xrx-spinbox-button {
+        color: #380a2e;
+        background-color: transparent;
+    }
+
+    .xrx-spinbox .xrx-spinbox-button-container:active button {
+        background: black !important;
+        background-color: black !important;
+        color: white !important;
+    }
+
+    .xrx-spinbox .xrx-spinbox-button-container[disabled] button {
+        border-color: gray !important;
+        color: darkgray;
+        cursor: default;
+    }
+
+    .xrx-spinbox .xrx-spinbox-button-container[disabled]:active button {
+        background-color: transparent !important;
+        color: darkgray !important;
+    }
+
+    table .xrx-spinbox,
+    .table .xrx-spinbox {
+        margin: 0px;
+    }
+
+    table .xrx-spinbox .xrx-spinbox-button,
+    .table .xrx-spinbox .xrx-spinbox-button {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        height: 52px;
+        min-width: 68px;
+    }
+
+    table .xrx-spinbox .xrx-spinbox-button-container,
+    .table .xrx-spinbox .xrx-spinbox-button-container {
+        height: 68px;
+    }
+
+    .alignSpinbox {
+        float: right;
+    }
+
+    .alignSpinbox > div > div > .option-text {
+        text-align: right;
+        background: transparent;
+    }
+
+    @media(min-width: 800px) {
+        .alignSpinbox {
+            margin-top: -13px;
+            height: 36px;
+        }
+    }
+    /* spinbox 10" spec */
+    @media (min-width: 1024px) {
+        .alignSpinbox {
+            margin-top: -15px;
+            height: 24px;
+        }
+
+        .xrx-spinbox .xrx-spinbox-button {
+            height: 50px;
+        }
+
+        table .xrx-spinbox .xrx-spinbox-button,
+        .table .xrx-spinbox .xrx-spinbox-button {
+            margin-top: 8px;
+            margin-bottom: 8px;
+            height: 46px;
+        }
+
+        table .xrx-spinbox .xrx-spinbox-button-container,
+        .table .xrx-spinbox .xrx-spinbox-button-container {
+            height: 62px;
+        }
+    }
+}

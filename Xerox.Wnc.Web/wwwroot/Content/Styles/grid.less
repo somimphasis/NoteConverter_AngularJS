@@ -1,0 +1,120 @@
+﻿.generate-columns(63);
+
+.generate-columns(@n, @i: 1) when (@i =< @n) {
+
+
+    .column-5-c-@{i} {
+        width: ((((round((@i/2)) * 15) + (round((((@i)-1)/2)) * 10 )) / 790) * 100%);
+        float: left;
+        min-height: 1px;
+    }
+
+    .column-5-g-@{i} {
+        width: ((((round((@i/2)) * 10) + (round((((@i)-1)/2)) * 15 )) / 790) * 100%);
+        float: left;
+        min-height: 1px;
+    }
+
+    .column-offset-5-c-@{i} {
+        margin-left: ((((round((@i/2)) * 15) + (round((((@i)-1)/2)) * 10 )) / 790) * 100%);
+    }
+
+    .column-offset-5-g-@{i} {
+        margin-left: ((((round((@i/2)) * 10) + (round((((@i)-1)/2)) * 15 )) / 790) * 100%);
+    }
+
+    @media (min-width: 1024px) {
+
+        .column-10-@{i} {
+            width: (@i * 100% / @n) !important;
+            float: left;
+            min-height: 1px;
+        }
+
+        .column-offset-10-@{i} {
+            margin-left: (@i * 100% / @n) !important;
+        }
+    }
+
+    .generate-columns(@n, (@i + 1));
+}
+
+
+/* All buttons in rows are 100%  */
+div[class^=column-] button {
+    width: 100%;
+}
+
+.grid-container {
+    padding-right: 5px;
+    padding-left: 5px;
+
+    @media (min-width: 1024px) {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .grid-row {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 5px;
+
+        @media (min-width: 1024px) {
+            margin-left: -8px;
+            margin-right: -8px;
+            padding: 8px;
+        }
+
+        .column-5-g-39 {
+            width: calc(100% - 32.91139241% - 40px);
+        }
+
+        &.themed-header {
+            padding-bottom: 10px;
+
+            @media (min-width: 1024px) {
+                padding-bottom: 16px;
+            }
+        }
+
+        &.option-content {
+            padding-top: 10px;
+
+            @media (min-width: 1024px) {
+                padding-top: 16px;
+            }
+        }
+
+        &.footer {
+            padding-top: 10px;
+            padding-bottom: 15px;
+
+            @media (min-width: 1024px) {
+                padding-top: 16px;
+                padding-bottom: 24px;
+            }
+
+            &.print {
+                padding-top: 15px;
+                padding-bottom: 20px;
+
+                @media (min-width: 1024px) {
+                    padding-top: 59px;
+                    padding-bottom: 32px;
+                }
+
+                &.no-staple {
+                    @media (min-width: 1024px) {
+                        padding-top: 134px;
+                    }
+                }
+            }
+        }
+    }
+
+    button {
+        margin: 0px;
+    }
+}
